@@ -1,3 +1,8 @@
+.page {
+    width: calc(100% - 100px) !important;
+    padding-right: 0px  !important ;
+}
+
 /* Make sure styles only affect the Input Helper page */
 #input-helper {
     max-width: 1100px; /* Wider content */
