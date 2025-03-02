@@ -1,0 +1,11 @@
+main:
+  - title: "Modelling tools"
+    url: /tools/
+  - title: "Tutorials"
+    url: /tutorials/
+  - title: "Video tutorials"
+    url: /video-tutorials/
+  - title: "About"
+    url: /about/
+  - title: "Input Helper"
+    url: /input-helper/

@@ -1,59 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CUWALID Input Helper</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>CUWALID Input Helper</h1>
-        <p>Welcome to the CUWALID Input Helper! This tool allows you to easily generate JSON configurations for running the different aspects of CUWALID.</p>
-        <p>For running the main CUWALID system, you will need all of the json files. It is important to note that when running the system, the CUWALID input json file will override the necessary settings within each model. For example, if 'year' is set to '2025' in the CUWALID json, but '2017' in the storm input, the storm input will be overrided.</p>
-        <div class="intro">
+---
+title: "CUWALID"
+layout: splash
+permalink: /
+header:
+  overlay_image: /assets/images/D2E_Texture01.jpg
+  overlay_filter: "0.5"
+  overlay_color: "#000"
+  actions:
+    - label: "Get Started"
+      url: "#modelling-tools"
+excerpt: "This website helps to explore the CUWALID models with information and examples along with software using the CUWALID system like the WujihaCast telegram app."
+intro:
+  - excerpt: "Discover how our tools and resources can help you get started."
+    
+feature_row:
+  - image_path: /assets/images/climate_modelling.png
+    title: "Modeling Tools"
+    excerpt: "Explore CUWALID for powerful modeling capabilities."
+    url: "/tools/"
+    btn_label: "More info"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/WujihaCast_interface2.jpg
+    title: "Chatbot App"
+    excerpt: "Use our chatbot for efficient automated interactions."
+    url: "https://github.com/your-org/Chatbot"
+    btn_label: "Chatbot Repo"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/DRYP_Diagram.jpg
+    title: "Tutorials"
+    excerpt: "Written and video tutorials to aid in using the CUWALID models."
+    url: "https://github.com/your-org/Chatbot"
+    btn_label: "Tutorials"
+    btn_class: "btn--primary"
 
-            <p><strong>How it works:</strong></p>
-            <ul>
-                <li>Select the component you would like the input for at the top.</li>
-                <li>Fill out the form fields as required.</li>
-                <li>Required fields are marked in <span class="required-label">red</span>, while optional fields are in black.</li>
-                <li>Once completed, you can view the preview of your json and export it.</li>
-            </ul>
-        </div>
+gallery:
+    - url: /assets/images/gallery/hPET_stoPET_Africa.jpg
+      image_path: /assets/images/gallery/hPET_stoPET_Africa.jpg
+      alt: "phPET stoPET Africa Image"
+      title: "stoPET Example"
+    - url: /assets/images/gallery/ICPAC_Tforecast_OND2024.jpg
+      image_path: /assets/images/gallery/ICPAC_Tforecast_OND2024.jpg
+      alt: "ICPAC Forecast OND 2024 Image"
+      title: "ICPAC Forecast OND 2024"
+    - url: /assets/images/gallery/STORM_forecast.jpg
+      image_path: /assets/images/gallery/STORM_forecast.jpg
+      alt: "STORM forecast Image"
+      title: "STORM Forecast"
 
-        <div class="input-type-container">
-            <label for="jsonType">Select the type of input you would like to create:</label>
-            <select id="jsonType">
-                <option value="cuwalid">CUWALID</option>
-                <option value="dryp">DRYP</option>
-                <option value="dryp_settings">DRYP Settings</option>
-                <option value="storm">Storm</option>
-                <option value="stopet">stoPET</option>
-                <option value="hydro_forecast">Hydro Forecast</option>
-                <option value="impact_forecast">Impact Forecast</option>
-            </select>
-        </div>    
-        
-        <div class="load-json-container">
-            <label for="jsonUpload" class="json-upload-label">
-                Optionally, you can upload a previous input file and modify it from there:
-            </label>
-            <input type="file" id="jsonUpload" accept=".json">
-        </div>
-        
+---
 
-        <div id="formContainer" class="nested-section"></div>
-        <label for="filename">Output Filename:</label>
-        <input type="text" id="filename" placeholder="Filename will auto-fill" />
-        <button onclick="exportJSON()">Export JSON</button>
+{% include feature_row id="intro" type="center" %}
 
-        <h3>JSON Preview</h3>
-        <pre class="json-output" id="jsonOutput">Loading JSON data...</pre>
-    </div>
+{% include feature_row %}
 
-    <script src="configurations.js"></script>
-    <script src="script.js"></script>
-</body>
+Here is a gallery showing some examples produced by each of the CUWALID models
 
-</html>
+{% include gallery %}
+
+
