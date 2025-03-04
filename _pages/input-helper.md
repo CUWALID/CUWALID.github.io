@@ -5,7 +5,7 @@ permalink: /input-helper/
 author_profile: true
 ---
 
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/input-helper.css">
 
 <div id="input-helper">
     <p>Welcome to the CUWALID Input Helper! This tool allows you to easily generate JSON configurations for running the different aspects of CUWALID.</p>

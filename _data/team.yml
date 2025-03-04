@@ -1,0 +1,26 @@
+- name: Michael Singer
+  role:  DOWN2EARTH Principal Investigator and CU Lead
+  description: Lead Principal Investigator on DOWN2EARTH, Deputy Director of the Water Research Institute and a Professor at Cardiff University
+  image: /assets/images/team/micheal.jpg
+
+- name: Andrés Quichimbo
+  role:  Postdoctoral Researcher CU
+  description: Part of the model developer team for CUWALID and main creator of the DRYP Model
+  image: /assets/images/team/andres.jpg
+
+- name: Manuel Rios Gaona
+  role:  Postdoctoral Researcher CU
+  description: Part of the model developer team for CUWALID and main creator of the Storm Model
+  image: /assets/images/team/manuel.jpg
+
+- name: Dagmawi Asfaw
+  role:  Postdoctoral Researcher CU
+  description: Part of the model developer team for CUWALID and main creator of the StoPET Model
+  image: /assets/images/team/dagmawi.jpg
+
+- name: Leo Coote
+  role:  Application Assistant
+  description: Joining as a summer intern in 2024 as a CS student, worked to combine the models into a unified package to release of PyPi
+  image: /assets/images/team/leo.jpg
+
+
