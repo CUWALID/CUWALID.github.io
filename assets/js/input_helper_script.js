@@ -26,6 +26,8 @@ function generateForm(data, parentElement = document.getElementById('formContain
     createFormElements(data, parentElement, data);
     updateJSONOutput(data); // Ensure JSON preview updates immediately
 }
+
+
 function createFormElements(data, parentElement, rootObject) {
     for (let key in data) {
         const value = data[key];
@@ -36,7 +38,8 @@ function createFormElements(data, parentElement, rootObject) {
 
         let label = document.createElement('label');
         label.textContent = key;
-        label.style.display = 'block';
+        label.style.display = 'inline-flex'; // Change to inline-flex
+        label.style.alignItems = 'center'; // Align items vertically
 
         let description = null;
         let isRequired = false;
@@ -65,20 +68,21 @@ function createFormElements(data, parentElement, rootObject) {
             }
 
             let inputContainer = document.createElement('div');
+            inputContainer.style.display = 'inline';
 
             // Handling different types
             if (typeof finalValue === 'boolean') {
                 let input = document.createElement('input');
                 input.type = 'checkbox';
                 input.checked = finalValue;
-                input.style.marginRight = '5px';
+                input.style.marginLeft = '5px'; // Add margin to the left of the checkbox
 
                 input.addEventListener('change', () => {
                     data[key].default = input.checked;
                     updateJSONOutput(rootObject);
                 });
 
-                inputContainer.appendChild(input);
+                label.appendChild(input); // Append checkbox directly to the label
             } else if (typeof finalValue === 'string' || finalValue === null) {
                 let input = document.createElement('input');
                 input.type = 'text';
@@ -91,6 +95,7 @@ function createFormElements(data, parentElement, rootObject) {
                 });
 
                 inputContainer.appendChild(input);
+                wrapper.appendChild(inputContainer);
             } else if (typeof finalValue === 'number') {
                 let input = document.createElement('input');
                 input.type = 'number';
@@ -102,6 +107,7 @@ function createFormElements(data, parentElement, rootObject) {
                 });
 
                 inputContainer.appendChild(input);
+                wrapper.appendChild(inputContainer);
             } else if (Array.isArray(finalValue)) {
                 if (inputType === "checkbox") {
                     // Checkbox-based multi-selection (default behavior)
@@ -140,6 +146,7 @@ function createFormElements(data, parentElement, rootObject) {
                     });
 
                     inputContainer.appendChild(checkboxContainer);
+                    wrapper.appendChild(inputContainer);
                 } else if (inputType === "custom") {
                     // Custom input system for dynamic values
                     const listContainer = document.createElement('div');
@@ -205,15 +212,15 @@ function createFormElements(data, parentElement, rootObject) {
                     inputContainer.appendChild(addButton);
                     inputContainer.appendChild(listContainer);
                     updateList(); // Initialize list display
+                    wrapper.appendChild(inputContainer);
                 }
             }
 
-            wrapper.appendChild(inputContainer);
         } else if (typeof value === 'object' && value !== null) {
             // Nested section
             const container = document.createElement('div');
             container.classList.add('nested-section');
-        
+
             const separator = document.createElement('hr');
             separator.classList.add('nested-separator');
 
