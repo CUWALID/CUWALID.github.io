@@ -27,7 +27,7 @@ This is a website surrounding all components of the CUWALID Climate and Water fo
 ### Down2Earth project  
 DOWN2EARTH assembles a multidisciplinary project team, composed of experts and specialists in social science, rural development, media communication, climate science, meteorology, environment, hydrology, policy analysis, GIS, remote sensing, computer science, decision-support, modelling, and dryland processes. Below is a description of our project organization and a list of consortium institutions.
 
-## Partners Gallery
+## Partners
 
 <div class="custom-gallery">
     <a href="/assets/images/partners/CU_logo.jpg">
