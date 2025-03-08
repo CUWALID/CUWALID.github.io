@@ -6,7 +6,7 @@ permalink: /team/
 
 ## Meet the Team
 
-Welcome to the CUWALID team page! Below, you'll find the amazing people behind the project.
+Welcome to the CUWALID team page! Below, you'll find the amazing people behind the CUWALID model and Down2Earth project.
 
 <link rel="stylesheet" href="/assets/css/team.css">
 
