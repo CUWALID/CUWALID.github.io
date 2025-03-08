@@ -14,27 +14,27 @@ sidebar:
 <div class="model-container">
   <div class="model-card">
     <h3>DRYP</h3>
-    <p>A model for forecasting seasonal climate impacts.</p>
+    <p>Dryland water partitioning model.</p>
     <a href="/model-info/#dryp-tutorial" class="btn btn--primary">Tutorial</a>
   </div>
   <div class="model-card">
-    <h3>StoPET</h3>
-    <p>Seasonal and impact forecasting for water and vegetation.</p>
+    <h3>stoPET</h3>
+    <p>Stochastic potential evpotranspiration generator.</p>
     <a href="/model-info/#stopet-tutorial" class="btn btn--primary">Tutorial</a>
   </div>
   <div class="model-card">
-    <h3>Storm</h3>
-    <p>Forecasts and weather patterns to support decision-making.</p>
+    <h3>STORM</h3>
+    <p>Stochastic Rainfall generator.</p>
     <a href="/model-info/#storm-tutorial" class="btn btn--primary">Tutorial</a>
   </div>
   <div class="model-card">
-    <h3>WaterCast</h3>
-    <p>Hydrological forecast for water availability.</p>
+    <h3>HyCast</h3>
+    <p>Probabilistic Hydrological forecast.</p>
     <a href="/model-info/#watercast-tutorial" class="btn btn--primary">Tutorial</a>
   </div>
   <div class="model-card">
     <h3>ImCast</h3>
-    <p>Impact-based forecast for agricultural planning.</p>
+    <p>Impact-based water forecast.</p>
     <a href="/model-info/#imcast-tutorial" class="btn btn--primary">Tutorial</a>
   </div>
 </div>
