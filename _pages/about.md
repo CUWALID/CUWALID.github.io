@@ -2,9 +2,6 @@
 permalink: /about/
 title: "About"
 
-
-This is a website surrounding all components of the CUWALID Climate and Water forecasting system, including information about the models, tutorials and details relating to the WujihaCast Telegram app.
-
 gallery:
     - url: /assets/images/partners/CU_logo.jpg
       image_path: /assets/images/partners/CU_logo.jpg
@@ -25,9 +22,12 @@ gallery:
 ---
 
 ### CUWALID Modeling System  
+This is a website surrounding all components of the CUWALID Climate and Water forecasting system, including information about the models, tutorials and details relating to the WujihaCast Telegram app.
+
+### Down2Earth project  
 DOWN2EARTH assembles a multidisciplinary project team, composed of experts and specialists in social science, rural development, media communication, climate science, meteorology, environment, hydrology, policy analysis, GIS, remote sensing, computer science, decision-support, modelling, and dryland processes. Below is a description of our project organization and a list of consortium institutions.
 
-## Wujihacast Gallery
+## Partners Gallery
 
 <div class="custom-gallery">
     <a href="/assets/images/partners/CU_logo.jpg">
