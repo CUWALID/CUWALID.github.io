@@ -1,4 +1,4 @@
-- - name: Andrés Quichimbo
+- name: Andrés Quichimbo
   role:  Postdoctoral Researcher CU
   description: Lead developer of the CUWALID system and main creator of the DRYP Model
   image: /assets/images/team/andres.jpg
@@ -13,17 +13,17 @@
   description: Part of the model developer team for CUWALID and main creator of the StoPET Model
   image: /assets/images/team/dagmawi.jpg
 
-name: Michael Singer
+- name: Michael Singer
   role:  DOWN2EARTH Principal Investigator and CU Lead
   description: Lead Principal Investigator on DOWN2EARTH, Deputy Director of the Water Research Institute and a Professor at Cardiff University
   image: /assets/images/team/micheal.jpg
 
-name: Mark Cuthbert
+- name: Mark Cuthbert
   role:  DOWN2EARTH Principal Investigator and CU Lead
   description: Principal Investigator on DOWN2EARTH, and Professor at Cardiff University
   image: /assets/images/team/Cuthbert.jpg
 
-name: Katerina Michaelides
+- name: Katerina Michaelides
   role:  DOWN2EARTH Principal Investigator and UoB Lead
   description: Lead Principal Investigator on DOWN2EARTH, and a Professor at University of Bristol
   image: /assets/images/team/Michaelides.jpg
