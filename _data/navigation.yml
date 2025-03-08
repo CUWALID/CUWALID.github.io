@@ -15,16 +15,18 @@ model-info:
     children:
       - title: Overview
         url: /model-info/#models
+      - title: Cuwalid Info
+        url: /model-info/#cuwalid-system
       - title: "DRYP Info"
         url: /model-info/#dryp-model
       - title: "StoPET Info"
-        url: /model-info/#stopet-model/
+        url: /model-info/#stopet-model
       - title: "Storm Info"
-        url: /model-info/#storm-model/
+        url: /model-info/#storm-model
       - title: "WaterCast"
-        url: /model-info/#watercast-model/
+        url: /model-info/#watercast-model
       - title: "ImCast Info"
-        url: /model-info/#imcast-model/
+        url: /model-info/#imcast-model
 
   - title: Input Helper
     url: /model-info/#input-helper

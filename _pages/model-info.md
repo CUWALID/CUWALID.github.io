@@ -42,6 +42,10 @@ sidebar:
 
 ---
 
+{% include model_info/cuwalid-info.md %}
+
+---
+
 {% include model_info/dryp-info.md %}
 
 ---
