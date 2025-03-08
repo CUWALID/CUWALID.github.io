@@ -57,9 +57,6 @@ The WujihaCast chatbot is designed for stakeholders in the **Horn of Africa Dryl
     <a href="/assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-55-27-969_org.telegram.messenger.jpg">
         <img src="/assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-55-27-969_org.telegram.messenger.jpg" alt="stoPET Example">
     </a>
-    <a href="/assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-56-22-644_org.telegram.messenger.jpg">
-        <img src="/assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-56-22-644_org.telegram.messenger.jpg" alt="ICPAC Forecast OND 2024">
-    </a>
     <a href="/assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-56-45-480_org.telegram.messenger.jpg">
         <img src="/assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-56-45-480_org.telegram.messenger.jpg" alt="STORM Forecast">
     </a>
