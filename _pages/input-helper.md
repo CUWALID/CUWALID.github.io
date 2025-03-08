@@ -2,7 +2,6 @@
 title: "CUWALID Input Helper"
 layout: single
 permalink: /input-helper/
-author_profile: true
 ---
 
 <link rel="stylesheet" href="/assets/css/input-helper.css">

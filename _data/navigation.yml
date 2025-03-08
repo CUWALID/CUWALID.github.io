@@ -1,6 +1,6 @@
 main:
-  - title: "Modelling tools"
-    url: /tools/
+  - title: "Modelling Info"
+    url: /model-info/
   - title: "Chatbot"
     url: /chatbot/
   - title: "Tutorials"
@@ -9,3 +9,49 @@ main:
     url: /team/
   - title: "About"
     url: /about/
+
+model-info:
+  - title: Models
+    children:
+      - title: Overview
+        url: /model-info/#models
+      - title: "DRYP Info"
+        url: /model-info/#dryp-model
+      - title: "StoPET Info"
+        url: /model-info/#stopet-model/
+      - title: "Storm Info"
+        url: /model-info/#storm-model/
+      - title: "WaterCast"
+        url: /model-info/#watercast-model/
+      - title: "ImCast Info"
+        url: /model-info/#imcast-model/
+
+  - title: Input Helper
+    url: /model-info/#input-helper
+
+tutorials:
+
+  - title: Installation
+    children:
+      - title: Pip Installation
+        url: /tutorials/#pip-installation
+      - title: Github Installation
+        url: /tutorials/#github-installation
+
+  - title: Models
+    children:
+      - title: Overview
+        url: /tutorials/#models
+      - title: "DRYP Info"
+        url: /tutorials/#dryp-tutorial
+      - title: "StoPET Info"
+        url: /tutorials/#stopet-tutorial
+      - title: "Storm Info"
+        url: /tutorials/#storm-tutorial
+      - title: "WaterCast"
+        url: /tutorials/#watercast-tutorial
+      - title: "ImCast Info"
+        url: /tutorials/#imcast-tutorial
+
+  - title: Input Helper
+    url: /tutorials/#input-helper

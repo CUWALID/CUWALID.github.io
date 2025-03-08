@@ -2,7 +2,6 @@
 title: "CUWALID Team"
 layout: single
 permalink: /team/
-author_profile: true
 ---
 
 ## Meet the Team
