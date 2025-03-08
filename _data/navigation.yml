@@ -42,15 +42,17 @@ tutorials:
     children:
       - title: Overview
         url: /tutorials/#models
-      - title: "DRYP Info"
+      - title: Cuwalid Tutorial
+        url: /tutorials/#cuwalid-tutorial
+      - title: "DRYP Tutorial"
         url: /tutorials/#dryp-tutorial
-      - title: "StoPET Info"
+      - title: "StoPET Tutorial"
         url: /tutorials/#stopet-tutorial
-      - title: "Storm Info"
+      - title: "Storm Tutorial"
         url: /tutorials/#storm-tutorial
-      - title: "WaterCast"
+      - title: "WaterCast Tutorial"
         url: /tutorials/#watercast-tutorial
-      - title: "ImCast Info"
+      - title: "ImCast Tutorial"
         url: /tutorials/#imcast-tutorial
 
   - title: Input Helper

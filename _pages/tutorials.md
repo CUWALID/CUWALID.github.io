@@ -50,6 +50,10 @@ sidebar:
 
 ---
 
+{% include tutorials/cuwalid-tutorial.md %}
+
+---
+
 {% include tutorials/dryp-tutorial.md %}
 
 ---
