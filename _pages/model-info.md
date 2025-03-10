@@ -70,4 +70,4 @@ sidebar:
 
 ---
 
-{% include input-helper.md %}
+{% include input-helper-info.md %}

@@ -1,24 +1,7 @@
 ---
 permalink: /about/
+layout: splash
 title: "About"
-
-gallery:
-    - url: /assets/images/partners/CU_logo.jpg
-      image_path: /assets/images/partners/CU_logo.jpg
-      alt: "phPET stoPET Africa Image"
-      title: "stoPET Example"
-    - url: assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-56-45-480_org.telegram.messenger.jpg
-      image_path: assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-56-45-480_org.telegram.messenger.jpg
-      alt: "STORM forecast Image"
-      title: "STORM Forecast"
-    - url: assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-57-04-525_org.telegram.messenger.jpg
-      image_path: assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-57-04-525_org.telegram.messenger.jpg
-      alt: "STORM forecast Image"
-      title: "STORM Forecast"
-    - url: assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-57-36-968_org.telegram.messenger.jpg
-      image_path: assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-57-36-968_org.telegram.messenger.jpg
-      alt: "STORM forecast Image"
-      title: "STORM Forecast"
 ---
 
 ### CUWALID Modeling System  
@@ -29,17 +12,37 @@ DOWN2EARTH assembles a multidisciplinary project team, composed of experts and s
 
 ## Partners
 
-<div class="custom-gallery">
-    <a href="/assets/images/partners/CU_logo.jpg">
-        <img src="/assets/images/partners/CU_logo.jpg" alt="stoPET Example">
+Our project is supported by a range of institutions and organizations.  
+
+<link rel="stylesheet" href="/assets/css/about.css">
+
+<div class="partners-container">
+  {% for partner in site.data.partners %}
+  <div class="partner">
+    <a href="{{ partner.url }}" target="_blank">
+      <img src="{{ partner.image }}" alt="{{ partner.name }}" class="partner-logo">
     </a>
-    <a href="/assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-56-45-480_org.telegram.messenger.jpg">
-        <img src="/assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-56-45-480_org.telegram.messenger.jpg" alt="STORM Forecast">
-    </a>
-    <a href="/assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-57-04-525_org.telegram.messenger.jpg">
-        <img src="/assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-57-04-525_org.telegram.messenger.jpg" alt="STORM Forecast">
-    </a>
-    <a href="/assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-57-36-968_org.telegram.messenger.jpg">
-        <img src="/assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-57-36-968_org.telegram.messenger.jpg" alt="STORM Forecast">
-    </a>
-</div> 
+    <p><strong>{{ partner.name }}</strong></p>
+  </div>
+  {% endfor %}
+</div>
+
+---
+
+## **Funding and Support**  
+
+The CUWALID system and its research have been **supported by multiple organizations** and funding bodies.  
+
+<div class="funders-container">
+{% for funder in site.data.funders %}
+  <a href="{{ funder.website }}" target="_blank">
+    <img src="{{ funder.image }}" alt="{{ funder.name }}" class="funder-logo">
+  </a>
+{% endfor %}
+</div>
+
+### **Acknowledgments**  
+- **E. Andrés Quichimbo** received financial support from Cardiff University through a Vice Chancellor’s Scholarship, Cardiff-UKRI-EPSRC.  
+- **Mark O. Cuthbert** acknowledges funding for an Independent Research Fellowship from the UK Natural Environment Research Council (**NE/P017819/1**).  
+- **Michael Bliss Singer** has been supported by the U.S. National Science Foundation (**BCS-1660490 and EAR-1700517**) and the U.S. Department of Defense (**RC18-1006**).  
+- **The team** has been supported by the Global Challenges Research Fund (**GCRF**), The Royal Society (**DRIER, CHL\R1\180485**), and the European Union's Horizon 2020 programme (**DOWN2EARTH, grant no. 869550**).  

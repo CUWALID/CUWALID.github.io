@@ -20,3 +20,14 @@
     object-fit: cover;
     margin-bottom: 10px;
 }
+.icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.member-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}

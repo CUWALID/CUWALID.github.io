@@ -1,35 +1,63 @@
 - name: Andrés Quichimbo
-  role:  Postdoctoral Researcher CU
+  role: Postdoctoral Researcher CU
   description: Lead developer of the CUWALID system and main creator of the DRYP Model
   image: /assets/images/team/andres.jpg
+  orcid: "https://orcid.org/0000-0002-6811-3189"
+  github: "https://github.com/AndresQuichimbo"
+  scholar: "https://orcid.org/0000-0002-6811-3189"
+
 
 - name: Manuel Rios Gaona
-  role:  Postdoctoral Researcher CU
+  role: Postdoctoral Researcher CU
   description: Part of the model developer team for CUWALID and main creator of the Storm Model
   image: /assets/images/team/manuel.jpg
+  orcid: "https://orcid.org/0000-0003-3717-1738"
+  github: "https://github.com/feliperiosg"
+  scholar: "https://scholar.google.com/citations?user=MLObfisAAAAJ&hl=en"
 
 - name: Dagmawi Asfaw
-  role:  Postdoctoral Researcher CU
+  role: Postdoctoral Researcher CU
   description: Part of the model developer team for CUWALID and main creator of the StoPET Model
   image: /assets/images/team/dagmawi.jpg
+  orcid: "https://orcid.org/0000-0002-8417-1506"
+  scholar: "https://scholar.google.com/citations?user=Sf7o9OAAAAAJ&hl=en"
 
 - name: Leo Coote
-  role:  Application Assistant
-  description: Joining as a summer intern in 2024 as a CS student, worked to combine the models into a unified package to release of PyPi
+  role: Application Assistant
+  description: Joining as a summer intern in 2024 as a CS student, worked to combine the models into a unified package to release on PyPi
   image: /assets/images/team/leo.jpg
+  github: "https://github.com/CornishLeo"
+  website: "https://cornishleo.github.io/"
 
 - name: Michael Singer
-  role:  DOWN2EARTH Principal Investigator and CU Lead
+  role: DOWN2EARTH Principal Investigator and CU Lead
   description: Lead Principal Investigator on DOWN2EARTH, Deputy Director of the Water Research Institute and a Professor at Cardiff University
   image: /assets/images/team/micheal.jpg
+  orcid: "https://orcid.org/0000-0002-6899-2224"
+  github: "https://github.com/blissville71"
+  scholar: "https://scholar.google.com/citations?user=LT_zsYAAAAAJ&hl"
+  website: "https://singer.eri.ucsb.edu/"
 
 - name: Mark Cuthbert
-  role:  DOWN2EARTH Principal Investigator and CU Lead
+  role: DOWN2EARTH Principal Investigator and CU Lead
   description: Principal Investigator on DOWN2EARTH, and Professor at Cardiff University
   image: /assets/images/team/Cuthbert.jpg
+  orcid: "https://orcid.org/0000-0001-6721-022X"
+  scholar: "https://scholar.google.com/citations?user=8DSHWm0AAAAJ&hl=en"
+  website: "https://profiles.cardiff.ac.uk/staff/cuthbertm2"
 
 - name: Katerina Michaelides
-  role:  DOWN2EARTH Principal Investigator and UoB Lead
+  role: DOWN2EARTH Principal Investigator and UoB Lead
   description: Lead Principal Investigator on DOWN2EARTH, and a Professor at University of Bristol
   image: /assets/images/team/Michaelides.jpg
+  orcid: "https://orcid.org/0000-0002-7996-0543"
+  scholar: "https://scholar.google.com/citations?user=SW4AbDkAAAAJ&hl=en"
+  website: "http://katerina.eri.ucsb.edu/"
+  github: "https://github.com/KMichaelides"
 
+- name: David MacLeod
+  role: Senior Research Associate
+  description: Senior Research Associate working on the Down2Earth Project with expertise in climate science and predictability.
+  image: /assets/images/team/david.jpg
+  orcid: "https://orcid.org/0000-0001-5504-6450"
+  scholar: "https://scholar.google.com/citations?user=5XtRzu8AAAAJ&hl=en"

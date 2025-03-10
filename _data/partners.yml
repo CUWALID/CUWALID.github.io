@@ -1,0 +1,63 @@
+- name: "Aalborg University"
+  image: "/assets/images/partners/Aalborg_logo.png"
+  url: "https://www.en.aau.dk/"
+
+- name: "Addis Ababa University"
+  image: "/assets/images/partners/AAU_logo.png"
+  url: "https://www.aau.edu.et/"
+
+- name: "ActionAid"
+  image: "/assets/images/partners/AA_logo.png"
+  url: "https://www.actionaid.org.uk/"
+
+- name: "BBC Media Action"
+  image: "/assets/images/partners/BBC-MA_logo.png"
+  url: "https://www.bbc.co.uk/mediaaction/"
+
+- name: "Climate Analytics"
+  image: "/assets/images/partners/CA_logo.png"
+  url: "https://climateanalytics.org/"
+
+- name: "Cardiff University"
+  image: "/assets/images/partners/CU_logo.jpg"
+  url: "https://www.cardiff.ac.uk/"
+
+- name: "FAO SWALIM"
+  image: "/assets/images/partners/FAO-SWALIM_logo.png"
+  url: "https://www.faoswalim.org/"
+
+- name: "Horizon 2020 EU Commission"
+  image: "/assets/images/partners/H2020-EU-KOM.png"
+  url: "https://ec.europa.eu/programmes/horizon2020/"
+
+- name: "IGAD Climate Prediction and Applications Center (ICPAC)"
+  image: "/assets/images/partners/ICPAC_logo.jpg"
+  url: "https://www.icpac.net/"
+
+- name: "Institute for Environmental Studies (IVM-VU)"
+  image: "/assets/images/partners/IVM-VU_logo.jpg"
+  url: "https://www.ivm.vu.nl/"
+
+- name: "OSSREA"
+  image: "/assets/images/partners/OSSREA_logo.png"
+  url: "https://ossrea.net/"
+
+- name: "Transparency Solutions"
+  image: "/assets/images/partners/TS_logo.png"
+  url: "https://transparencysolutions.com/"
+
+- name: "University of East Anglia"
+  image: "/assets/images/partners/UEA_logo.png"
+  url: "https://www.uea.ac.uk/"
+
+- name: "Ghent University"
+  image: "/assets/images/partners/UGent_logo.png"
+  url: "https://www.ugent.be/"
+
+- name: "University of Bristol"
+  image: "/assets/images/partners/UoB_logo.png"
+  url: "https://www.bristol.ac.uk/"
+
+- name: "University of Nairobi"
+  image: "/assets/images/partners/UoN_logo.png"
+  url: "https://www.uonbi.ac.ke/"

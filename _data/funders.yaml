@@ -1,0 +1,32 @@
+- name: "Cardiff University"
+  image: "/assets/images/funders/CU-logo.png"
+  website: "https://www.cardiff.ac.uk/"
+
+- name: "UKRI EPSRC"
+  image: "/assets/images/funders/UKRI-logo.png"
+  website: "https://www.ukri.org/councils/epsrc/"
+
+- name: "Natural Environment Research Council (NERC)"
+  image: "/assets/images/funders/NERC-logo.png"
+  website: "https://nerc.ukri.org/"
+
+- name: "U.S. National Science Foundation (NSF)"
+  image: "/assets/images/funders/NSF-logo.png"
+  website: "https://www.nsf.gov/"
+
+- name: "U.S. DoD Strategic Environmental Research and Development Program"
+  image: "/assets/images/funders/DoD-logo.png"
+  website: "https://www.defense.gov/"
+
+- name: "Global Challenges Research Fund (GCRF)"
+  image: "/assets/images/funders/GCRF-logo.png"
+  website: "https://www.ukri.org/what-we-do/browse-our-areas-of-investment-and-support/global-challenges-research-fund/"
+
+- name: "DRIER Project (The Royal Society)"
+  image: "/assets/images/funders/royal-society-logo.png"
+  website: "https://royalsociety.org/"
+
+- name: "European Union Horizon 2020 (DOWN2EARTH Project)"
+  image: "/assets/images/funders/H2020-logo.png"
+  website: "https://ec.europa.eu/programmes/horizon2020/"
+
