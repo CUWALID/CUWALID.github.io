@@ -13,6 +13,11 @@
   description: Part of the model developer team for CUWALID and main creator of the StoPET Model
   image: /assets/images/team/dagmawi.jpg
 
+- name: Leo Coote
+  role:  Application Assistant
+  description: Joining as a summer intern in 2024 as a CS student, worked to combine the models into a unified package to release of PyPi
+  image: /assets/images/team/leo.jpg
+
 - name: Michael Singer
   role:  DOWN2EARTH Principal Investigator and CU Lead
   description: Lead Principal Investigator on DOWN2EARTH, Deputy Director of the Water Research Institute and a Professor at Cardiff University
@@ -28,7 +33,3 @@
   description: Lead Principal Investigator on DOWN2EARTH, and a Professor at University of Bristol
   image: /assets/images/team/Michaelides.jpg
 
-- name: Leo Coote
-  role:  Application Assistant
-  description: Joining as a summer intern in 2024 as a CS student, worked to combine the models into a unified package to release of PyPi
-  image: /assets/images/team/leo.jpg
