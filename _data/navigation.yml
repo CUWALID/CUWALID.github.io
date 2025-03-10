@@ -1,6 +1,8 @@
 main:
   - title: "Modelling Info"
     url: /model-info/
+  - title: "Tools"
+    url: /tools/
   - title: "Chatbot"
     url: /chatbot/
   - title: "Tutorials"
