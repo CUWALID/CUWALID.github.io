@@ -42,7 +42,7 @@ An interactive chatbot that provides impact-based seasonal forecasts to help ind
 ---
 
 ### CUWALID Modeling System  
-Developed as part of the **EU-funded DOWN2EARTH** project, CUWALID translates seasonal climate forecasts into useful information about water and vegetation, supporting decision-making at multiple levels of society.
+Developed as part of the EU-funded DOWN2EARTH project under grant agreement [No 869550](https://cordis.europa.eu/project/id/869550), CUWALID translates seasonal climate forecasts into useful information about water and vegetation, supporting decision-making at multiple levels of society.
 
 ### Who Can Benefit?  
 The WujihaCast chatbot is designed for stakeholders in the **Horn of Africa Drylands (HAD)**, including Ethiopia, Somalia, and Kenya.  
