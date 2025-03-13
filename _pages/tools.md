@@ -4,7 +4,7 @@ layout: single
 permalink: /tools/
 ---
 
-The CUWALID system includes multiple tools to assist with both **creating inputs** and **analyzing outputs**. Below, you will find two essential tools designed to make working with CUWALID more accessible.
+The CUWALID system includes multiple tools to assist with both **creating inputs** and **analysing outputs**. Below, you will find two essential tools designed to make working with CUWALID more accessible.
 
 ---
 
@@ -24,9 +24,15 @@ A **web-based tool** designed to simplify the creation of JSON inputs for CUWALI
 
 ### CUWALID Desktop Application  
 A **PC-based application** designed to help users **visualize CUWALID outputs** and perform **common analysis tasks** without needing coding experience.   
+
+Currently the system can plot:
+- Shape files
+- ASCII files or .asc files
+- NetCDF both 2d and 3d (when 3d with time it will add a slider at the bottom of the plot you can use to move through the time steps). It will -    automatically open the first variable in the netcdf but you can change which variable it plots after you have opened it with a dropdown menu on the main screen.
+- CSV files (like those provided in the output you linked me on google drive)
  
-**Coming soon!**  
-<a href="#" class="btn btn--primary">Download App (Coming Soon)</a>  
+Check out the gihub releases here and pick the newest release (windows only currently)  
+<a href="https://github.com/CUWALID/CUWALID-App/releases" class="btn btn--primary">Download App</a>  
 
 ---
 
