@@ -1,0 +1,26 @@
+- title: "Publication Title Example"
+  authors: "Jane Doe, John Smith"
+  year: 2023
+  abstract: "Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example"
+  doi: "10.1234/exampledoi"
+  arxiv: "2301.12345"
+  scholar: "https://scholar.google.com/scholar?q=Understanding+Climate+Change+with+CUWALID"
+  pdf: "/assets/papers/cuvalid_climate_change.pdf"
+
+- title: "Publication Title Example"
+  authors: "Jane Doe, John Smith"
+  year: 2023
+  abstract: "Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example"
+  doi: "10.1234/exampledoi"
+  arxiv: "2301.12345"
+  scholar: "https://scholar.google.com/scholar?q=Understanding+Climate+Change+with+CUWALID"
+  pdf: "/assets/papers/cuvalid_climate_change.pdf"
+
+- title: "Publication Title Example"
+  authors: "Jane Doe, John Smith"
+  year: 2023
+  abstract: "Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example"
+  doi: "10.1234/exampledoi"
+  arxiv: "2301.12345"
+  scholar: "https://scholar.google.com/scholar?q=Understanding+Climate+Change+with+CUWALID"
+  pdf: "/assets/papers/cuvalid_climate_change.pdf"

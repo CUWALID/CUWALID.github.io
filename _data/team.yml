@@ -6,7 +6,6 @@
   github: "https://github.com/AndresQuichimbo"
   scholar: "https://orcid.org/0000-0002-6811-3189"
 
-
 - name: Manuel Rios Gaona
   role: Postdoctoral Researcher CU
   description: Part of the model developer team for CUWALID and main creator of the Storm Model
@@ -61,3 +60,8 @@
   image: /assets/images/team/david.jpg
   orcid: "https://orcid.org/0000-0001-5504-6450"
   scholar: "https://scholar.google.com/citations?user=5XtRzu8AAAAJ&hl=en"
+
+- name: Kieren Pitts
+  role: WujihaCast development team
+  description: Holds a PhD in Biological Sciences from the University of Bristol. 
+  image: /assets/images/team/kieren.jpg

@@ -26,10 +26,6 @@
   image: "/assets/images/partners/FAO-SWALIM_logo.png"
   url: "https://www.faoswalim.org/"
 
-- name: "Horizon 2020 EU Commission"
-  image: "/assets/images/partners/H2020-EU-KOM.png"
-  url: "https://ec.europa.eu/programmes/horizon2020/"
-
 - name: "IGAD Climate Prediction and Applications Center (ICPAC)"
   image: "/assets/images/partners/ICPAC_logo.jpg"
   url: "https://www.icpac.net/"

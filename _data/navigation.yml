@@ -1,5 +1,5 @@
 main:
-  - title: "Modelling Info"
+  - title: "Modelling"
     url: /model-info/
   - title: "Tutorials"
     url: /tutorials/
@@ -9,6 +9,8 @@ main:
     url: /chatbot/
   - title: "Team"
     url: /team/
+  - title: "Publications"
+    url: /publications/
   - title: "About"
     url: /about/
 

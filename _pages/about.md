@@ -8,7 +8,7 @@ title: "About"
 This is a website surrounding all components of the CUWALID Climate and Water forecasting system, including information about the models, tutorials and details relating to the WujihaCast Telegram app.
 
 ### Down2Earth project  
-DOWN2EARTH assembles a multidisciplinary project team, composed of experts and specialists in social science, rural development, media communication, climate science, meteorology, environment, hydrology, policy analysis, GIS, remote sensing, computer science, decision-support, modelling, and dryland processes. Below is a description of our project organization and a list of consortium institutions.
+[DOWN2EARTH](https://down2earthproject.org/) assembles a multidisciplinary project team, composed of experts and specialists in social science, rural development, media communication, climate science, meteorology, environment, hydrology, policy analysis, GIS, remote sensing, computer science, decision-support, modelling, and dryland processes. Below is a description of our project organization and a list of consortium institutions.
 
 ## Partners
 
