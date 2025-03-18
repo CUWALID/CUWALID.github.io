@@ -39,6 +39,8 @@ tutorials:
 
   - title: Installation
     children:
+      - title: Python Tutorial/Help
+        url: /tutorials/#python-tutorial
       - title: Pip Installation
         url: /tutorials/#pip-installation
       - title: Github Installation

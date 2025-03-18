@@ -42,6 +42,10 @@ sidebar:
 
 ---
 
+{% include tutorials/python-tutorial.md %}
+
+---
+
 {% include tutorials/pip-installation.md %}
 
 ---

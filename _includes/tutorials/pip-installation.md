@@ -1,13 +1,9 @@
 ## Pip Installation
 
-These steps assume you already have Python installed. We recommend using a **Python version between 3.9 and 3.11**.
+These steps assume you already have Anaconda installed to easily create new environments. We recommend using a **Python version between 3.9 and 3.11**. If you aren't using anaconda, it is still recommended to create an environment.
 
-If you don't have Python installed yet, you can download it from [here](https://www.python.org/downloads/release/python-3119/).  
+If you don't have Anaconda or Python installed yet, check out the instructions [here](#python-tutorial).  
 Make sure to **tick the "Add to PATH" box** during installation to simplify the setup.
-
-Alternatively, you can use **Anaconda** to create an environment with a specific Python version, as shown below.
-
-These steps should work even if installing through **PyPI within a Conda environment**, but note that dependency conflicts may be more likely with this method.
 
 ---
 
