@@ -173,15 +173,40 @@ const jsonConfigurations = {
                 "pet": {
                     "default": 1,
                     "required": true,
-                    "description": "Potential evapotranspiration data reading interval"
+                    "description": "Potential evapotranspiration data reading format"
                 },
                 "kc": {
                     "default": 3,
                     "required": true,
-                    "description": "Crop coefficient data reading interval"
+                    "description": "Crop coefficient data reading format"
                 },
                 "savi": {
                     "default": 3,
+                    "required": true,
+                    "description": "Soil-adjusted vegetation index data reading format"
+                },
+                "fluxOF": {
+                    "default": 0,
+                    "required": true,
+                    "description": "Surface flux boundary data reading interval"
+                },
+                "fluxUZ": {
+                    "default": 0,
+                    "required": true,
+                    "description": "Subsurface (irrigation) flux boundary data reading interval"
+                },
+                "fluxSZ": {
+                    "default": 0,
+                    "required": true,
+                    "description": "Groundwater flux boundary data reading interval"
+                },
+                "fluxWB": {
+                    "default": 0,
+                    "required": true,
+                    "description": "Water bodies flux boundary data reading interval"
+                },
+                "av": {
+                    "default": 0,
                     "required": true,
                     "description": "Soil-adjusted vegetation index data reading interval"
                 },
@@ -327,6 +352,21 @@ const jsonConfigurations = {
                 "default": true,
                 "required": true,
                 "description": "Whether to output data in grid format"
+            },
+            "output_grid_rmax": {
+                "default": true,
+                "required": true,
+                "description": "Whether to output maximum data in grid format for streams"
+            },
+            "output_grid_vmax": {
+                "default": false,
+                "required": true,
+                "description": "Whether to output maximum data in grid format"
+            },
+            "output_dt_csv": {
+                "default": "1M",
+                "required": true,
+                "description": "Time interval for output *.CSV data (e.g., daily, monthly, etc.)"
             },
             "output_dt": {
                 "default": "1M",
