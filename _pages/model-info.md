@@ -10,7 +10,7 @@ sidebar:
 <link rel="stylesheet" href="{{ '/assets/css/model-card.css' | relative_url }}">
 
 
-{% include figure popup=true image_path="/assets/images/cuwalid_assets/CUWALID_Logo_LS_Full_Colour.png" alt="CUWALID Logo" %}
+{% include figure popup=true image_path="/assets/images/cuwalid_assets/CUWALID_Logo_LS_Full_Colour_black_letters.png" alt="CUWALID Logo" %}
 
 
 ## Models
