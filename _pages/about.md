@@ -22,7 +22,7 @@ Our project is supported by a range of institutions and organizations.
     <a href="{{ partner.url }}" target="_blank">
       <img src="{{ partner.image }}" alt="{{ partner.name }}" class="partner-logo">
     </a>
-    <p><strong>{{ partner.name }}</strong></p>
+    <p style="font-size: 8px; font-weight: normal;">{{ partner.name }}</p>
   </div>
   {% endfor %}
 </div>
