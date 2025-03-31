@@ -18,7 +18,10 @@ Python is an excellent language for beginners—it's **easy to learn**, widely u
 
 - **[Official Python Tutorial](https://docs.python.org/3/tutorial/)** – In-depth, covers every core feature of Python.  
 - **[W3Schools Python Tutorial](https://www.w3schools.com/python/)** – A beginner-friendly resource with interactive examples.  
-- **[FreeCodeCamp Python Course](https://www.youtube.com/watch?v=rfscVS0vtbw)** – A great **YouTube** tutorial for absolute beginners.  
+- **[FreeCodeCamp Python Course](https://www.youtube.com/watch?v=rfscVS0vtbw)** – A great **YouTube** tutorial for absolute beginners (shown below).  
+
+{% include video id="rfscVS0vtbw" provider="youtube" %}
+
 
 
 ### CUWALID Python Help

@@ -1,149 +1,28 @@
-- title: "Publication Title Example"
-  authors: "Jane Doe, John Smith"
+- title: "Paper Title 1"
+  authors: "Author A., Author B., & Author C."
   year: 2023
-  abstract: "Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example"
-  doi: "10.1234/exampledoi"
-  arxiv: "2301.12345"
-  scholar: "https://scholar.google.com/scholar?q=Understanding+Climate+Change+with+CUWALID"
-  pdf: "/assets/papers/cuvalid_climate_change.pdf"
+  journal: "Journal Name"
+  volume: 12
+  issue: 3
+  pages: "100-120"
+  doi: "10.xxxx/xxxxxx.2023.xxxxx"
+  arxiv: "2301.xxxxx"
+  scholar: "https://scholar.google.com/scholar?q=Paper+Title+1"
+  pdf: "/assets/papers/paper_title_1.pdf"
 
-- title: "Publication Title Example"
-  authors: "Jane Doe, John Smith"
-  year: 2023
-  abstract: "Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example"
-  doi: "10.1234/exampledoi"
-  arxiv: "2301.12345"
-  scholar: "https://scholar.google.com/scholar?q=Understanding+Climate+Change+with+CUWALID"
-  pdf: "/assets/papers/cuvalid_climate_change.pdf"
+- title: "Paper Title 2"
+  authors: "Author X., & Author Y."
+  year: 2022
+  journal: "Another Journal"
+  volume: 8
+  issue: 2
+  pages: "50-75"
+  doi: "10.xxxx/yyyyyy.2022.yyyyy"
+  arxiv: "2203.yyyyy"
+  scholar: "https://scholar.google.com/scholar?q=Paper+Title+2"
+  pdf: "/assets/papers/paper_title_2.pdf"
 
-- title: "Publication Title Example"
-  authors: "Jane Doe, John Smith"
-  year: 2023
-  abstract: "Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example Abstract example"
-  doi: "10.1234/exampledoi"
-  arxiv: "2301.12345"
-  scholar: "https://scholar.google.com/scholar?q=Understanding+Climate+Change+with+CUWALID"
-  pdf: "/assets/papers/cuvalid_climate_change.pdf"
-
-
-#-	title : {{DRYP} 1.0: a parsimonious hydrological model of {DRYland} {Partitioning} of the water balance},
-#	volume : {14},
-#	issn : {1991-959X},
-#	shorttitle : {{DRYP} 1.0},
-#	url : {https://gmd.copernicus.org/articles/14/6893/2021/},
-#	doi : {10.5194/gmd-14-6893-2021},
-#	abstract : {{\textless}p{\textgreater}{\textless}strong class="journal-contentHeaderColor"{\textgreater}Abstract.{\textless}/strong{\textgreater} Dryland regions are characterised by water scarcity and are facing major challenges under climate change. One difficulty is anticipating how rainfall will be partitioned into evaporative losses, groundwater, soil moisture, and runoff (the water balance) in the future, which has important implications for water resources and dryland ecosystems. However, in order to effectively estimate the water balance, hydrological models in drylands need to capture the key processes at the appropriate spatio-temporal scales. These include spatially restricted and temporally brief rainfall, high evaporation rates, transmission losses, and focused groundwater recharge. Lack of available input and evaluation data and the high computational costs of explicit representation of ephemeral surface–groundwater interactions restrict the usefulness of most hydrological models in these environments. Therefore, here we have developed a parsimonious distributed hydrological model for DRYland Partitioning (DRYP). The DRYP model incorporates the key processes of water partitioning in dryland regions with limited data requirements, and we tested it in the data-rich Walnut Gulch Experimental Watershed against measurements of streamflow, soil moisture, and evapotranspiration. Overall, DRYP showed skill in quantifying the main components of the dryland water balance including monthly observations of streamflow (Nash–Sutcliffe efficiency, NSE, {\textless}span class="inline-formula"{\textgreater}∼{\textless}/span{\textgreater} 0.7), evapotranspiration (NSE {\textless}span class="inline-formula"{\textgreater}\textit{\&gt;}{\textless}/span{\textgreater} 0.6), and soil moisture (NSE {\textless}span class="inline-formula"{\textgreater}∼{\textless}/span{\textgreater} 0.7). The model showed that evapotranspiration consumes {\textless}span class="inline-formula"{\textgreater}\textit{\&gt;}{\textless}/span{\textgreater} 90 \% of the total precipitation input to the catchment and that {\textless}span class="inline-formula"{\textgreater}\textit{\&lt;}{\textless}/span{\textgreater} 1 \% leaves the catchment as streamflow. Greater than 90 \% of the overland flow generated in the catchment is lost through ephemeral channels as transmission losses. However, only {\textless}span class="inline-formula"{\textgreater}∼{\textless}/span{\textgreater} 35 \% of the total transmission losses percolate to the groundwater aquifer as focused groundwater recharge, whereas the rest is lost to the atmosphere as riparian evapotranspiration. Overall, DRYP is a modular, versatile, and parsimonious Python-based model which can be used to anticipate and plan for climatic and anthropogenic changes to water fluxes and storage in dryland regions.{\textless}/p{\textgreater}},
-#	language : {English},
-#	number : {11},
-#	urldate : {2021-11-15},
-#	journal : {Geoscientific Model Development},
-#	author : {Quichimbo, E. Andrés and Singer, Michael Bliss and Michaelides, Katerina and Hobley, Daniel E. J. and Rosolem, Rafael and Cuthbert, Mark O.},
-#	month : nov,
-#	year : {2021},
-#	note : {Publisher: Copernicus GmbH},
-#	pages : {6893--6917},
-#	
-#
-#- title: {Hourly potential evapotranspiration at 0.1° resolution for the global land surface from 1981-present},
-#	volume : {8},
-#	copyright : {2021 The Author(s)},
-#	issn : {2052-4463},
-#	url : {https://www.nature.com/articles/s41597-021-01003-9},
-#	doi : {10.1038/s41597-021-01003-9},
-#	abstract : {Challenges exist for assessing the impacts of climate and climate change on the hydrological cycle on local and regional scales, and in turn on water resources, food, energy, and natural hazards. Potential evapotranspiration (PET) represents atmospheric demand for water, which is required at high spatial and temporal resolutions to compute actual evapotranspiration and thus close the water balance near the land surface for many such applications, but there are currently no available high-resolution datasets of PET. Here we develop an hourly PET dataset (hPET) for the global land surface at 0.1° spatial resolution, based on output from the recently developed ERA5-Land reanalysis dataset, over the period 1981 to present. We show how hPET compares to other available global PET datasets, over common spatiotemporal resolutions and time frames, with respect to spatial patterns of climatology and seasonal variations for selected humid and arid locations across the globe. We provide the data for users to employ for multiple applications to explore diurnal and seasonal variations in evaporative demand for water.},
-#	language : {en},
-#	number : {1},
-#	urldate : {2021-09-12},
-#	journal : {Scientific Data},
-#	author : {Singer, Michael Bliss and Asfaw, Dagmawi Teklu and Rosolem, Rafael and Cuthbert, Mark O. and Miralles, Diego G. and MacLeod, David and Quichimbo, Edisson Andres and Michaelides, Katerina},
-#	month : aug,
-#	year : {2021},
-#	
-#
-#-	title : {{stoPET} v1.0: a stochastic potential evapotranspiration generator for simulation of climate change impacts},
-#	volume : {16},
-#	issn : {1991-959X},
-#	shorttitle : {{stoPET} v1.0},
-#	url : {https://gmd.copernicus.org/articles/16/557/2023/},
-#	doi : {10.5194/gmd-16-557-2023},
-#	abstract : {Potential evapotranspiration (PET) represents the evaporative demand in the atmosphere for the removal of water from the land and is an essential variable for understanding and modelling land–atmosphere interactions. Weather generators are often used to generate stochastic rainfall time series; however, no such model exists for the generation of a stochastically plausible PET time series. Here we develop a stochastic PET generator, stoPET, by leveraging a recently published global dataset of hourly PET at 0.1∘ resolution (hPET). stoPET is designed to simulate realistic time series of PET that capture the diurnal and seasonal variability in hPET and to support the simulation of various scenarios of climate change. The parsimonious model is based on a sine function fitted to the monthly average diurnal cycle of hPET, producing parameters that are then used to generate any number of synthetic series of randomised hourly PET for a specific climate scenario at any point of the global land surface between 55∘ N and 55∘ S. In addition to supporting a stochastic analysis of historical PET, stoPET also incorporates three methods to account for potential future changes in atmospheric evaporative demand to rising global temperature. These include (1) a user-defined percentage increase in annual PET, (2) a step change in PET based on a unit increase in temperature, and (3) the extrapolation of the historical trend in hPET into the future. We evaluated stoPET at a regional scale and at 12 locations spanning arid and humid climatic regions around the globe. stoPET generates PET distributions that are statistically similar to hPET and an independent PET dataset from CRU, thereby capturing their diurnal/seasonal dynamics, indicating that stoPET produces physically plausible diurnal and seasonal PET variability. We provide examples of how stoPET can generate large ensembles of PET for future climate scenario analysis in sectors like agriculture and water resources with minimal computational demand.},
-#	language : {English},
-#	number : {2},
-#	urldate : {2023-07-20},
-#	journal : {Geoscientific Model Development},
-#	author : {Asfaw, Dagmawi Teklu and Singer, Michael Bliss and Rosolem, Rafael and MacLeod, David and Cuthbert, Mark and Miguitama, Edisson Quichimbo and Rios Gaona, Manuel F. and Michaelides, Katerina},
-#	month : jan,
-#	year : {2023},
-#	note : {Publisher: Copernicus GmbH},
-#	pages : {557--571},
-#
-#-	title : {Assessing the sensitivity of modelled water partitioning to global precipitation datasets in a data-scarce dryland region},
-#	volume : {37},
-#	copyright : {© 2023 The Authors. Hydrological Processes published by John Wiley \& Sons Ltd.},
-#	issn : {1099-1085},
-#	url : {https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.15047},
-#	doi : {10.1002/hyp.15047},
-#	abstract : {Precipitation is the primary driver of hydrological models, and its spatial and temporal variability have a great impact on water partitioning. However, in data-sparse regions, uncertainty in precipitation estimates is high and the sensitivity of water partitioning to this uncertainty is unknown. This is a particular challenge in drylands (semi-arid and arid regions) where the water balance is highly sensitive to rainfall, yet there is commonly a lack of in situ rain gauge data. To understand the impact of precipitation uncertainty on the water balance in drylands, here we have performed simulations with a process-based hydrological model developed to characterize the water balance in arid and semi-arid regions (DRYP: DRYland water Partitioning model). We performed a series of numerical analyses in the Upper Ewaso Ng'iro basin, Kenya driven by three gridded precipitation datasets with different spatio-temporal resolutions (IMERG, MSWEP, and ERA5), evaluating simulations against streamflow observations and remotely sensed data products of soil moisture, actual evapotranspiration, and total water storage. We found that despite the great differences in the spatial distribution of rainfall across a climatic gradient within the basin, DRYP shows good performance for representing streamflow (KGE {\textgreater}0.6), soil moisture, actual evapotranspiration, and total water storage (r {\textgreater}0.5). However, the choice of precipitation datasets greatly influences surface (infiltration, runoff, and transmission losses) and subsurface fluxes (groundwater recharge and discharge) across different climatic zones of the Ewaso Ng'iro basin. Within humid areas, evapotranspiration does not show sensitivity to the choice of precipitation dataset, however, in dry lowland areas it becomes more sensitive to precipitation rates as water-limited conditions develop. The analysis shows that the highest rates of precipitation produce high rates of diffuse recharge in Ewaso uplands and also propagate into runoff, transmission losses and, ultimately focused recharge, with the latter acting as the main mechanism of groundwater recharge in low dry areas. The results from this modelling exercise suggest that care must be taken in selecting forcing precipitation data to drive hydrological modelling efforts, especially in basins that span a climatic gradient. These results also suggest that more effort is required to reduce uncertainty between different precipitation datasets, which will in turn result in more consistent quantification of the water balance.},
-#	language : {en},
-#	number : {12},
-#	urldate : {2023-12-29},
-#	journal : {Hydrological Processes},
-#	author : {Quichimbo, E. A. and Singer, M. B. and Michaelides, K. and Rosolem, R. and MacLeod, D. A. and Asfaw, D.t. and Cuthbert, M. O.},
-#	year : {2023},
-#	note : {\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.15047},
-#	keywords : {recharge, groundwater, transmission losses, ephemeral streams, water partitioning, dryland},
-#	pages : {e15047},
-#
-#-	title : {{STORM} v.2: {A} simple, stochastic decision-support tool for exploring the impacts of climate and climate change at, and near the land surface in gauged watersheds},
-#	shorttitle : {{STORM} v.2},
-#	url : {https://gmd.copernicus.org/preprints/gmd-2023-98/},
-#	doi : {10.5194/gmd-2023-98},
-#	abstract : {{\textless}p{\textgreater}{\textless}strong class="journal-contentHeaderColor"{\textgreater}Abstract.{\textless}/strong{\textgreater} Climate change is expected to have major impacts on land surface and subsurface processes through its expression on the hydrological cycle, but the impacts to any particular basin or region are highly uncertain. Non-stationarities in the frequency, magnitude, duration, and timing of rainfall events have important implications for human societies, water resources, and ecosystems. The conventional approach for assessing the impacts of climate change is to downscale global climate model output and use it to drive regional and local models that express the climate within hydrology near the land surface. While this approach may be useful for linking global general circulation models to regional hydrological cycle, it is limited for examining the details of hydrological response to climate forcing for a specific location over timescales relevant to decision makers. For example, management of flood or drought hazard requires detailed information that includes uncertainty based on variability in storm characteristics, rather than on differences between models within an ensemble. To fill this gap, we present the second version of our STOchastic Rainfall Model (STORM), an open-source, parsimonious and user-friendly modeling framework for simulating climatic expression as rainfall fields over a basin. This work showcases the use of STORM in simulating ensembles of realistic sequences, and spatial patterns of rainstorms for current climate conditions, and bespoke climate change scenarios that are likely to affect the water balance near the Earth's surface. We outline, and detail STORM's new approaches: one copula for linking marginal distributions of storm intensity and duration; orographic stratification of rainfall using the copula approach; a radial decay-rate for rainfall intensity which takes into consideration potential, but unrecorded, maximum storm intensities; an optional component to simulate storm start date-times via circular/directional statistics; and a simple implementation for modelling future climate scenarios. We also introduce a new pre-processing module that facilitates the generation of model input in the form of probability density functions (PDFs) from historical data for subsequent stochastic sampling. Independent validation showed that the average performance of STORM falls within a 5.5 \% of the historical seasonal total rainfall in the Walnut Gulch Experimental Watershed (Arizona, USA) that ocurred in the current century.{\textless}/p{\textgreater}},
-#	language : {English},
-#	urldate : {2023-07-20},
-#	journal : {Geoscientific Model Development Discussions},
-#	author : {Rios Gaona, Manuel Felipe and Michaelides, Katerina and Singer, Michael Bliss},
-#	month : jul,
-#	year : {2023},
-#	note : {Publisher: Copernicus GmbH},
-#	pages : {1--36},
-#
-#
-#-	title : {Translating seasonal climate forecasts into water balance forecasts for decision making},
-#	volume : {2},
-#	issn : {2767-3200},
-#	url : {https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000138},
-#	doi : {10.1371/journal.pclm.0000138},
-#	abstract : {Seasonal rainfall forecasts support early preparedness. These forecasts are typically disseminated at Regional Climate Outlook Forums (RCOFs), in the form of seasonal tercile probability categories—above normal, normal, below normal. However, these categories cannot be related directly to impacts on terrestrial water stores within catchments, since they are mediated by non-linear hydrological processes occurring on fine spatiotemporal scales, including rainfall partitioning into infiltration, evapotranspiration, runoff and groundwater recharge. Hydrological models are increasingly capable of capturing these processes, but there is no simple way to drive such models with a specific RCOF seasonal tercile rainfall forecast. Here we demonstrate a new method, “Quantile Bin Resampling” (QBR), for producing seasonal water forecasts for a drainage basin by integrating a tercile seasonal rainfall forecast with a hydrological model. QBR is based on mapping historical quantiles of basin-average rainfall to historical simulations of the water balance, and circumvents challenges associated with using climate model output to drive impact models directly. We evaluate QBR by generating 35 years of seasonal reforecasts for various water balance stores and fluxes for the Upper Ewaso Ng’iro basin in Kenya. Hindcasts indicate that when input tercile rainfall forecasts have skill, QBR provides accurate water forecasts at kilometre-scale resolution, which is relevant for anticipatory action down to village level. Pilot operational experimental water forecasts were produced for this basin using QBR for the 2022 March-May rainfall season, then disseminated to regional stakeholders at the Greater Horn of Africa Climate Outlook Forum (GHACOF). We discuss this initiative, along with limitations, plans and future potential of the method. Beyond the demonstrated application to water-related forecasts, QBR can be easily adapted to work with any rainfall-driven impact model. It can translate objective tercile climate probabilities into impact-relevant water balance forecasts at high spatial resolution in an efficient, transparent and flexible way.},
-#	language : {en},
-#	number : {3},
-#	urldate : {2024-01-02},
-#	journal : {PLOS Climate},
-#	author : {MacLeod, David and Quichimbo, Edisson A. and Michaelides, Katerina and Asfaw, Dagmawi Teklu and Rosolem, Rafael and Cuthbert, Mark O. and Otenyo, Erick and Segele, Zewdu and Rigby, Jacob M. and Otieno, George and Hassaballah, Khalid and Tadege, Abebe and Singer, Michael Bliss},
-#	month : mar,
-#	year : {2023},
-#	note : {Publisher: Public Library of Science},
-#	keywords : {Flooding, Hydrology, Africa, Climate modeling, Forecasting, Rain, Seasons, Simulation and modeling},
-#	pages : {e0000138},
-#
-#-	title : {A coupled agent-based model to analyse human-drought feedbacks for agropastoralists in dryland regions},
-#	volume : {4},
-#	issn : {2624-9375},
-#	url : {https://www.frontiersin.org/articles/10.3389/frwa.2022.1037971},
-#	abstract : {Drought is a persistent hazard that impacts the environment, people's livelihoods, access to education and food security. Adaptation choices made by people can influence the propagation of this drought hazard. However, few drought models incorporate adaptive behavior and feedbacks between adaptations and drought. In this research, we present a dynamic drought adaptation modeling framework, ADOPT-AP, which combines socio-hydrological and agent-based modeling approaches. This approach is applied to agropastoral communities in dryland regions in Kenya. We couple the spatially explicit hydrological Dryland Water Partitioning (DRYP) model with a behavioral model capable of simulating different bounded rational behavioral theories (ADOPT). The results demonstrate that agropastoralists respond differently to drought due to differences in (perceptions of) their hydrological environment. Downstream communities are impacted more heavily and implement more short-term adaptation measures than upstream communities in the same catchment. Additional drivers of drought adaptation concern socio-economic factors such as wealth and distance to wells. We show that the uptake of drought adaptation influences soil moisture (positively through irrigation) and groundwater (negatively through abstraction) and, thus, the drought propagation through the hydrological cycle.},
-#	urldate : {2024-01-02},
-#	journal : {Frontiers in Water},
-#	author : {Streefkerk, Ileen N. and de Bruijn, Jens and Haer, Toon and Van Loon, Anne F. and Quichimbo, Edisson A. and Wens, Marthe and Hassaballah, Khalid and Aerts, Jeroen C. J. H.},
-#	year : {2023},
-
-
-#References
-#Singer, M.B., Asfaw, D.T., Rosolem, R., Cuthbert, M.O., Quichimbo, A., Miralles, D.G., MacLeod, D., Michaelides, K. (2021). Hourly potential evapotranspiration at 0.1˚ grid resolution for the global land surface from 1981-present, Scientific Data, 8(224), doi:10.1038/s41597-021-01003-9. pdf
-
-#Quichimbo, E.A., Singer, M.B., Michaelides, K., Hobley, D., Rosolem, R., Cuthbert, M.O. (2021). DRYP 1.0: A parsimonious hydrological model of DRYland Partitioning of the water balance, Geoscientific Model Development, doi:10.5194/gmd-2021-137. pdf
-
-#Quichimbo, E.A., Singer, M.B., Michaelides, K., Rosolem, R., MacLeod, D.A., Asfaw, D.T., Cuthbert, M.O. (2023); Assessing the sensitivity of modelled water partitioning to global precipitation datasets in a data-scarce dryland region, Hydrological Processes, doi:10.1002/hyp.15047, pdf.
-
-#Asfaw, D.T., Singer, M.B., Rosolem, R., Cuthbert, M.O., Quichimbo, E.A., *MacLeod, D.A., *Rios Gaona, M.F., Michaelides, K. (2023); StoPET v1.0: A stochastic potential evapotranspiration generator for simulation of climate change impacts, Geoscientific Model Development, 16(2), 557-571, doi:10.5194/gmd-16-557-2023. pdf
-
-#Rios Gaona, M.F., Singer, M.B., Michaelides, K. (2024); STORM v.2: A simple, stochastic rainfall model for exploring the impacts of climate and climate change at and near the land surface in gauged watersheds, Geoscientific Model Development, 17(13):5387-5412, doi:10.5194/gmd-17-5387-2024. pdf.
+- title: "Paper Title 3"
+  authors: "Author M., Author N., & Author O."
+  year: 2021
+  doi: "10.xxxx/zzzzzz.2021.zzzzz"
