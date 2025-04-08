@@ -11,7 +11,7 @@ The training materials are presented as a series of Jupyter Notebooks, which wil
 The user can find and download all training materials as well as DRYP model examples from the following GitHub repo [CUWALID-tutorials](https://github.com/AndresQuichimbo/CUWALID-tutorials/):
 
 DRYP model examples can be downloaded from:
-<a href="(https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/Examples/DRYP)" target="_blank" class="btn btn--primary">
+<a href="https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/Examples/DRYP" target="_blank" class="btn btn--primary">
     <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> DRYP Examples
 </a>
 
