@@ -24,7 +24,7 @@ Python is an excellent language for beginners—it's **easy to learn**, widely u
 
 
 
-### CUWALID Python Help
+### Python basics for CUWALID users
 
 CUWALID uses well-known packages to handle information and perform calculations. You will find the following packages useful for preparing model parameters as well as analyzing model outputs. Here, you will also find links to widely used, **free resources** available online (not affiliated with CUWALID):
 
@@ -38,9 +38,28 @@ CUWALID uses well-known packages to handle information and perform calculations.
 - **[Handling raster dataset with rasterio](https://rasterio.readthedocs.io/en/stable/topics/reading.html)** – You can use rasterio to create raster files (e.g., *.ASC, *.tif), which are common gridded formats for CUWALID model parameters.
 
 
-### CUWALID Python tutorials
+### CUWALID Python Training
 
-We have developed a series of Python tutorials specifically tailored for CUWALID use. Below, you will find links to Jupyter notebooks that will help you understand, create, and manage CUWALID datasets:
+This training package provides a series of hands-on Python tutorials designed to support users in creating, managing, and working with CUWALID datasets. The tutorials are delivered as Jupyter Notebooks and cover essential data preparation tasks for hydrological and environmental modeling workflows using CUWALID.
+
+Whether you are working with time series or spatial data, these tutorials will guide you through key operations needed to build and customize your own datasets.
+
+All **Jupyter Notebooks** for Python tutorial are found here:
+
+<a href="https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/Training/Python" target="_blank" class="btn btn--primary">
+    <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> Python Tutorial
+</a>
+
+
+#### Training modules
+1. **[Creating 1D and 2D Temporal Series in Python](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/Training/Python/Timeseries_generator.ipynb)**
+Learn how to generate and manage temporal datasets in Python, including both single-point (1D) and spatially distributed (2D) time series that are compatible with CUWALID workflows.
+
+2. **[Creating Raster Files in Python](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/Training/Python/Create_raster_files_samples.ipynb)**
+This tutorial walks through the process of creating raster datasets from scratch using Python. You'll learn how to define grid structures, assign values, and save outputs in standard raster formats.
+
+3. **[Modifying Raster Files Using Region-Based Values](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/Training/Python/Create_raster_datasets_from_table.ipynb)**
+Learn how to update existing raster datasets using a list of predefined regions and corresponding values. This approach is useful for tasks such as assigning land use categories, parameter zones, or scenario-based modifications.
 
 
 
