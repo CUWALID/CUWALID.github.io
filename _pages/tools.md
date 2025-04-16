@@ -2,6 +2,10 @@
 title: "CUWALID Modelling Tools"
 layout: single
 permalink: /tools/
+
+sidebar:
+  nav: "tools"
+
 ---
 
 The CUWALID system includes multiple tools to assist with both **creating inputs** and **analysing outputs**. Below, you will find two essential tools designed to make working with CUWALID more accessible.
