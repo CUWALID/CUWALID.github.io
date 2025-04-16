@@ -1,6 +1,13 @@
-## DRYP Tutorial
+---
+title: "DRYP Tutorial"
+layout: single
+permalink: /tutorials/dryp-tutorial/
 
-<a href="/model-info/#dryp-model" class="btn btn--primary">Model Information</a>
+sidebar:
+  nav: "tutorials"
+---
+
+<a href="/model-info/dryp-model" class="btn btn--primary">Model Information</a>
 
 ### Overview
 

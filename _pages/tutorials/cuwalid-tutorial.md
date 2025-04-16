@@ -1,18 +1,25 @@
-## Cuwalid Tutorial
+---
+title: "Cuwalid Tutorial"
+layout: single
+permalink: /tutorials/cuwalid-tutorial/
+
+sidebar:
+  nav: "tutorials"
+---
 
 This tutorial is to help you run the entire cuwalid system
 
-learn more infomation about the system **[here](/model-info/#cuwalid-system)**
+learn more infomation about the system **[here](/model-info/cuwalid-system)**
 
 ### Models
 
 These are the different models found in the cuwalid system
 
-- **[DRYP](/model-info/#dryp-model)** – Description
-- **[StoPET](/model-info/#stopet-model)** – Description 
-- **[Storm](/model-info/#storm-model)** – Description
-- **[WaterCast](/model-info/#watercast-model)** – Description
-- **[ImCast](/model-info/#imcast-model)** – Description 
+- **[DRYP](/model-info/dryp-model)** – Description
+- **[StoPET](/model-info/stopet-model)** – Description 
+- **[Storm](/model-info/storm-model)** – Description
+- **[HydroCast](/model-info/hydrocast-model)** – Description
+- **[ImCast](/model-info/imcast-model)** – Description 
 
 
 ### Preparing Your System for Running CUWALID
@@ -72,7 +79,7 @@ An example **CUWALID input JSON file** looks like this:
     "run_STORM": true,
     "run_stoPET": true,
     "run_DRYP": true,
-    "run_WaterCast": false,
+    "run_HydroCast": false,
     "sim_in_parallel": false,
     "historical": {
         "model_name": "historical_model",
@@ -102,7 +109,7 @@ An example **CUWALID input JSON file** looks like this:
 - **`run_STORM`** *(Boolean)* – Whether to run the STORM simulation (`true` to enable).
 - **`run_stoPET`** *(Boolean)* – Whether to run the stoPET simulation (`true` to enable).
 - **`run_DRYP`** *(Boolean)* – Whether to run the DRYP simulation (`true` to enable`).
-- **`run_WaterCast`** *(Boolean)* – Whether to run the WaterCast simulation (`true` to enable).
+- **`run_HydroCast`** *(Boolean)* – Whether to run the HydroCast simulation (`true` to enable).
 - **`sim_in_parallel`** *(Boolean)* – If `false`, all processes run sequentially. If `true`, processes run in parallel (only for DRYP and impact map plotting).
 
 ---
@@ -150,7 +157,7 @@ An example **CUWALID input JSON file** looks like this:
 
 ---
 
-### **WaterCast**
+### **HydroCast**
 - **`HyCast`** *(String)* – Path to the **hydrological forecast input JSON** for HyCast.
 - **`ImCast`** *(String)* – Path to the **impact forecast input JSON** for ImCast.
 

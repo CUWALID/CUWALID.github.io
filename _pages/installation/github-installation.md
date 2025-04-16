@@ -1,4 +1,12 @@
-## GitHub Installation
+---
+title: "Github Installation"
+layout: single
+permalink: /tutorials/github-installation
+
+sidebar:
+  nav: "tutorials"
+
+---
 
 This package has been tested on **Windows, WSL on Windows, and Linux**. If you encounter issues a linux based system is recommended, if you are on windows please look into WSL 'Windows Subsystem for Linux'
 

@@ -1,4 +1,12 @@
-## Pip Installation
+---
+title: "Pip Installation"
+layout: single
+permalink: /tutorials/pip-installation
+
+sidebar:
+  nav: "tutorials"
+
+---
 
 These steps assume you already have Anaconda installed to easily create new environments. We recommend using a **Python version between 3.9 and 3.11**. If you aren't using anaconda, it is still recommended to create an environment.
 

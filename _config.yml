@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   on the models, how to run them, the WujihaCast chat app and more.
 github_username: CUWALID
 minimal_mistakes_skin: "sunrise"
-search: true
+search: false
 
 # Build settings
 markdown: kramdown

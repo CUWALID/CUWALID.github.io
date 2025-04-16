@@ -20,48 +20,79 @@ model-info:
       - title: Overview
         url: /model-info/#models
       - title: Cuwalid Info
-        url: /model-info/#cuwalid-system
+        url: /model-info/cuwalid-system
       - title: "DRYP Info"
-        url: /model-info/#dryp-model
+        url: /model-info/dryp-model
       - title: "StoPET Info"
-        url: /model-info/#stopet-model
+        url: /model-info/stopet-model
       - title: "Storm Info"
-        url: /model-info/#storm-model
-      - title: "WaterCast"
-        url: /model-info/#watercast-model
+        url: /model-info/storm-model
+      - title: "HydroCast"
+        url: /model-info/hydrocast-model
       - title: "ImCast Info"
-        url: /model-info/#imcast-model
+        url: /model-info/imcast-model
 
-  - title: Input Helper
-    url: /model-info/#input-helper
+  - title: Tools
+    children:
+      - title: Overview
+        url: /tools/
+      - title: Input Helper
+        url: /tools/#input-helper
+      - title: CUWALID App
+        url: /tools/#cuwalid-app
 
 tutorials:
 
   - title: Installation
     children:
+      - title: Overview
+        url: /tutorials/#installation
       - title: Python Tutorial/Help
-        url: /tutorials/#python-tutorial
+        url: /tutorials/python-tutorial
       - title: Pip Installation
-        url: /tutorials/#pip-installation
+        url: /tutorials/pip-installation
       - title: Github Installation
-        url: /tutorials/#github-installation
+        url: /tutorials/github-installation
 
   - title: Models
     children:
       - title: Overview
         url: /tutorials/#models
       - title: Cuwalid Tutorial
-        url: /tutorials/#cuwalid-tutorial
+        url: /tutorials/cuwalid-tutorial
       - title: "DRYP Tutorial"
-        url: /tutorials/#dryp-tutorial
+        url: /tutorials/dryp-tutorial
       - title: "StoPET Tutorial"
-        url: /tutorials/#stopet-tutorial
+        url: /tutorials/stopet-tutorial
       - title: "Storm Tutorial"
-        url: /tutorials/#storm-tutorial
-      - title: "WaterCast Tutorial"
-        url: /tutorials/#watercast-tutorial
+        url: /tutorials/storm-tutorial
+      - title: "HydroCast Tutorial"
+        url: /tutorials/hydrocast-tutorial
       - title: "ImCast Tutorial"
-        url: /tutorials/#imcast-tutorial
+        url: /tutorials/imcast-tutorial
 
-  - title: Input Helper
-    url: /tutorials/#input-helper
+  - title: Tools
+    children:
+    - title: Overview
+      url: /tools/
+    - title: Input Helper
+      url: /tutorials/input-helper
+    - title: CUWALID App
+      url: /tutorials/cuwalid-app
+
+cuwalid-app:
+  - title: Overview
+    url: /tutorials/cuwalid-app/#overview
+  - title: Getting Started
+    url: /tutorials/cuwalid-app/#getting-started
+  - title: Interface Overview
+    url: /tutorials/cuwalid-app/#interface-overview
+  - title: Tabs
+    url: tutorials/cuwalid-app/#tabs
+    children:
+      - title: Visualisation Tab
+        url: tutorials/cuwalid-app/#visualisation-tab
+      - title: Run DRYP Tab
+        url: tutorials/cuwalid-app/#run-dryp-tab
+  - title: Troubleshooting
+    url: /tutorials/cuwalid-app/#troubleshooting

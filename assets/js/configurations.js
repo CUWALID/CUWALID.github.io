@@ -3,7 +3,7 @@ const jsonConfigurations = {
         "run_STORM": { "default": true, "required": true, "description": "Run the STORM model" },
         "run_stoPET": { "default": true, "required": true, "description": "Run the stoPET model" },
         "run_DRYP": { "default": true, "required": true, "description": "Run the DRYP model" },
-        "run_WaterCast": { "default": true, "required": true, "description": "Run the WaterCast model" },
+        "run_HydroCast": { "default": true, "required": true, "description": "Run the HydroCast model" },
         "sim_in_parallel": { "default": true, "required": false, "description": "Run simulations in parallel" },
     
         "forecasting_model_name": { "default": "MAM_2025_realization", "required": true, "description": "Name of the forecasting model" },
@@ -43,7 +43,7 @@ const jsonConfigurations = {
             "stoPET": {
                 "input": { "default": "input/stopet_input_ICPAC.json", "required": true, "description": "Path to stoPET model input file" }
             },
-            "WaterCast": {
+            "HydroCast": {
                 "HyCast": { "default": "input/forecast_input.json", "required": true, "description": "Path to HyCast model input file" },
                 "ImCast": { "default": "input/impact_forecast_input.json", "required": true, "description": "Path to ImCast model input file" }
             }

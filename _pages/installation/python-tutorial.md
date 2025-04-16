@@ -1,4 +1,12 @@
-## Python Tutorial
+---
+title: "Python Tutorial"
+layout: single
+permalink: /tutorials/python-tutorial
+
+sidebar:
+  nav: "tutorials"
+
+---
 
 This section provides recommendations for learning Python, especially if you're new to coding. The tutorials listed here are **not affiliated** with the CUWALID Team but are **free online resources** we highly recommend.  
 
