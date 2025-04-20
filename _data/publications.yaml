@@ -25,13 +25,13 @@
   volume: 34
   issn: "1099-1085"
   url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.13847"
-  doi: "10.1002/hyp.13847",
+  doi: "10.1002/hyp.13847"
   language: "en"
   number: "18"
   journal: "Hydrological Processes"
   author: "Quichimbo, Edisson A.; Singer, Michael B.; Cuthbert, Mark O."
-  year: "2020"
-  pages: "3792--3806"
+  year: 2020
+  pages: "3792-3806"
 
 - title: "Hourly potential evapotranspiration at 0.1° resolution for the global land surface from 1981-present"
   volume: "8"
