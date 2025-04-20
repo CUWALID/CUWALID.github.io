@@ -17,7 +17,7 @@ Welcome to the CUWALID publications page! Below, you'll find a list of research 
         {{ paper.author }} ({{ paper.year }}). 
         <em>{{ paper.title }}</em>{% if paper.journal %}. <i>{{ paper.journal }}</i>{% endif %} 
         {% if paper.volume %} <strong>{{ paper.volume }}</strong>{% endif %}
-        {% if paper.issue %}({{ paper.issue }}){% endif %}
+        {% if paper.number %}({{ paper.number }}){% endif %}
         {% if paper.pages %}, pp. {{ paper.pages }}{% endif %}.
         {% if paper.doi %} doi: <a href="https://doi.org/{{ paper.doi }}" target="_blank">{{ paper.doi }}</a>.{% endif %}
       </li>
