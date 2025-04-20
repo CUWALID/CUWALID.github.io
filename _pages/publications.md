@@ -14,7 +14,7 @@ Welcome to the CUWALID publications page! Below, you'll find a list of research 
   <ul>
     {% for paper in site.data.publications %}
       <li>
-        {{ paper.authors }} ({{ paper.year }}). 
+        {{ paper.author }} ({{ paper.year }}). 
         <em>{{ paper.title }}</em>{% if paper.journal %}. <i>{{ paper.journal }}</i>{% endif %} 
         {% if paper.volume %} <strong>{{ paper.volume }}</strong>{% endif %}
         {% if paper.issue %}({{ paper.issue }}){% endif %}
