@@ -15,11 +15,11 @@ learn more infomation about the system **[here](/model-info/cuwalid-system)**
 
 These are the different models found in the cuwalid system
 
-- **[DRYP](/model-info/dryp-model)** – Description
-- **[StoPET](/model-info/stopet-model)** – Description 
-- **[Storm](/model-info/storm-model)** – Description
-- **[HydroCast](/model-info/hydrocast-model)** – Description
-- **[ImCast](/model-info/imcast-model)** – Description 
+- **[DRYP](/model-info/dryp-model)** – Dryland Water Partitioning model
+- **[StoPET](/model-info/stopet-model)** – Stochastic Potential evapotranspiration generator 
+- **[Storm](/model-info/storm-model)** – Stochastic Rainfall generator model
+- **[HydroCast](/model-info/hydrocast-model)** – Hydrological based forecasting model
+- **[ImCast](/model-info/imcast-model)** – Impact based forecasting model 
 
 
 ### Preparing Your System for Running CUWALID
