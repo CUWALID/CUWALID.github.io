@@ -146,6 +146,10 @@ Each DRYP JSON file will get its own dynamically generated bash script in `bSub_
 
 ---
 
+## Complete forecasting
+
+Because this system using the same file structure as the main cuwalid system, to complete the final forecasting steps after dryp you can simply run the normal cuwalid.main_cuwalid script with a cuwalid_input.json. But please insure you have disabled the running of storm, stopet and dryp in the configurations settings. 
+
 ## Job Dependencies
 
 Job dependencies are managed with `-hold_jid`:
