@@ -70,6 +70,8 @@ tutorials:
         url: /tutorials/hydrocast-tutorial
       - title: "ImCast Tutorial"
         url: /tutorials/imcast-tutorial
+      - title: "Running in hpc tutorial"
+        url: /tutorials/hpc-tutorial
 
   - title: Tools
     children:
