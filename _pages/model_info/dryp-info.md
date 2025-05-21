@@ -116,6 +116,16 @@ To print results at specified locations, a file listing the x and y coordinates 
 
 Coordinate files can be specified in the 'OUTPUT' section of the main configuration file.
 
+Within the DRYP Settings file, you can specify the type of METEO file you are using as such:
+- 0 for csv files
+- 1 for netCDF files
+- 2 for YEARLY netCDF files
+- 3 for MONTHLY netCDF files
+- 4 for DAILY netCDF files
+- 5 for ensamble netCDF files
+
+It should be noted that if you are running the main cuwalid system (e.g. run_cuwalid() function), these settings will be changed automatically to match what is required from the output of Storm and stoPET.
+
 ### Result files
 
 Point result files are named with the model name followed by the letter "p" and the name of the variable at the end.
