@@ -116,7 +116,7 @@ To print results at specified locations, a file listing the x and y coordinates 
 
 Coordinate files can be specified in the 'OUTPUT' section of the main configuration file.
 
-Within the DRYP Settings file, you can specify the type of METEO file you are using as such:
+Within the DRYP Settings file under "READING"-"data_reading" then "pre"/"pet, you can specify the type of METEO file you are using as such:
 - 0 for csv files
 - 1 for netCDF files
 - 2 for YEARLY netCDF files
