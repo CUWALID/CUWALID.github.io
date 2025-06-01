@@ -3,6 +3,9 @@ title: "Wujihacast Chatbot"
 layout: single
 permalink: /chatbot/
 
+sidebar:
+  nav: "chatbot"
+
 gallery:
     - url: assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-55-27-969_org.telegram.messenger.jpg
       image_path: assets/images/wujihacast_gallery/Screenshot_2025-03-04-08-55-27-969_org.telegram.messenger.jpg

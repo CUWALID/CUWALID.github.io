@@ -98,3 +98,25 @@ cuwalid-app:
         url: tutorials/cuwalid-app/#run-dryp-tab
   - title: Troubleshooting
     url: /tutorials/cuwalid-app/#troubleshooting
+
+tools:
+    - title: Overview
+      url: /tools/
+      children:
+      - title: Input Helper
+        url: /tools/#input-helper
+      - title: CUWALID App
+        url: /tools/#cuwalid-app
+
+chatbot:
+  - title: Overview
+    url: /chatbot/
+    children:
+    - title: Who can benefit
+      url: /chatbot/#who-can-benefit
+    - title: Gallery
+      url: /chatbot/#wujihacast-gallery
+    - title: Key Capabilities
+      url: /chatbot/#key-capabilities
+    - title: Democratizing Climate Information
+      url: /chatbot/#democratizing-climate-information
