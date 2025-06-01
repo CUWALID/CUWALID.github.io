@@ -100,13 +100,13 @@ cuwalid-app:
     url: /tutorials/cuwalid-app/#troubleshooting
 
 tools:
-    - title: Overview
-      url: /tools/
-      children:
-      - title: Input Helper
-        url: /tools/#input-helper
-      - title: CUWALID App
-        url: /tools/#cuwalid-app
+  - title: Overview
+    url: /tools/
+    children:
+    - title: Input Helper
+      url: /tools/#input-helper
+    - title: CUWALID App
+      url: /tools/#cuwalid-app
 
 chatbot:
   - title: Overview
