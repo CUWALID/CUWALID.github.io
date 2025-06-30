@@ -9,7 +9,7 @@ sidebar:
 
 # CUWALID Forecast Workflow Guide
 
-This guide describes how to run the full CUWALID forecasting workflow, including generating JSON input files and submitting jobs to a compute cluster. This example uses `qsub` but it can adjusted to whichever software your hpc uses.
+This guide describes how to run the full CUWALID forecasting workflow, including generating JSON input files and submitting jobs to a compute cluster. This example uses `SLURM` but it can adjusted to whichever software your hpc uses.
 
 ---
 
@@ -42,24 +42,38 @@ an example is provided below of how you can do this, but it will depend on your 
 ```python 
 import os
 
-def write_bash(job_name, command, logname=None):
+def write_bash(job_name, command, logname=None, slurm=True, memory="4G", time="01:00:00"):
+    """Writes a bash script for submitting a job to a cluster.
+    
+    Parameters:
+    ----------
+    time : str
+        The maximum time the job is allowed to run, in the format HH:MM:SS.
+    memory : str
+        The amount of memory allocated for the job, e.g., "4G" for 4 gigabytes.
+    job_name : str
+        The name of the job.
+    command : str
+        The command to run in the job.
+    logname : str, optional
+        The name of the log file. If not provided, defaults to job_name.log.
+    """
+
     path = f"bSub_runMe/cuwalid_run_{job_name}.bash"
     log_file = logname or f"{job_name}.log"
     lines = [
-        "#!/bin/bash\n",
-        f"#$ -N cuwalid_{job_name}\n",
-        "#$ -l h_rt=01:00:00\n",
-        "#$ -l h_vmem=4G\n",
-        "#$ -pe smp 1\n",
-        "#$ -cwd\n",
-        "#$ -j y\n",
-        "#$ -V\n",
-        "#$ -S /bin/bash\n",
-        "\n",
-        "source ~/miniconda3/bin/activate\n",
-        "conda activate cwld\n",
-        f"{command} > ../bSub_logMe/{log_file} 2>&1\n"
-    ]
+            "#!/bin/bash\n",
+            f"#SBATCH --job-name=cuwalid_{job_name}\n",
+            f"#SBATCH --time={time}\n",
+            f"#SBATCH --mem={memory}\n",
+            "#SBATCH --cpus-per-task=1\n",
+            "#SBATCH --output=../bSub_logMe/%x.log\n",
+            "#SBATCH --error=../bSub_logMe/%x.err\n",
+            "\n",
+            "module load miniconda3\n",
+            "source activate cwld\n",
+            f"{command} > ../bSub_logMe/{log_file} 2>&1\n"
+            ]
     with open(path, "w") as f:
         f.writelines(lines)
 
@@ -95,47 +109,53 @@ pushd bSub_runMe
 
 # Read Storm JSON files and submit jobs for each
 while IFS= read -r storm_json; do
-    # Submit Storm job
-    storm_jobid=$(qsub -v STORM_JSON="$storm_json" cuwalid_run_storm.bash | awk '{print $3}')
-    
-    # Submit StoPET job for the same JSON (without holding Storm job)
-    stopet_json=$(echo "$storm_json" | sed 's/storm/stopet/')  # Assuming stopet json has the same name as storm json, just changed "storm" -> "stopet"
-    stopet_jobid=$(qsub -v STOPET_JSON="$stopet_json" cuwalid_run_stopet.bash | awk '{print $3}')
-    
-    # Now submit DRYP jobs after Storm and StoPET (they should hold until both jobs are done)
+    # Submit Storm job and get job ID
+    storm_jobid=$(sbatch --export=STORM_JSON="$storm_json" --parsable cuwalid_run_storm.bash)
+
+    # Submit StoPET job for the same JSON
+    stopet_json=$(echo "$storm_json" | sed 's/storm/stopet/')
+    stopet_jobid=$(sbatch --export=STOPET_JSON="$stopet_json" --parsable cuwalid_run_stopet.bash)
+
+    # Now submit DRYP jobs after Storm and StoPET (they should wait until both are done)
     while IFS= read -r dryp_json; do
-        # Create a DRYP job script for each DRYP JSON
         job_name=$(basename "$dryp_json" .json)
         bash_script="bSub_runMe/dryp_${job_name}.bash"
 
         cat <<EOF > "$bash_script"
 #!/bin/bash
-#$ -N dryp_${job_name}
-#$ -l h_rt=01:00:00
-#$ -l h_vmem=4G
-#$ -pe smp 1
-#$ -cwd
-#$ -j y
-#$ -V
-#$ -S /bin/bash
+#SBATCH --job-name=dryp_${job_name}
+#SBATCH --time=01:00:00
+#SBATCH --mem=4G
+#SBATCH --cpus-per-task=1
+#SBATCH --output=bSub_logMe/dryp_${job_name}.log
+#SBATCH --error=bSub_logMe/dryp_${job_name}.log
+#SBATCH --export=ALL
 
 source ~/miniconda3/bin/activate
 conda activate cwld
 
-# Run DRYP model with the provided JSON path
-python -m cuwalid.dryp "$dryp_json" > bSub_logMe/dryp_${job_name}.log 2>&1
+python -m cuwalid.dryp "$dryp_json"
 EOF
 
         chmod +x "$bash_script"
 
-        # Submit the DRYP job, which depends on both Storm and StoPET jobs
-        qsub -hold_jid $storm_jobid,$stopet_jobid "$bash_script"
-    done < path/to/dryp_jsons.txt  # Path to your dryp_jsons.txt
-done < path/to/storm_jsons.txt  # Path to your storm_jsons.txt
+        # Submit the DRYP job with dependency on both Storm and StoPET
+        sbatch --dependency=afterok:$storm_jobid:$stopet_jobid "$bash_script"
+    done < path/to/dryp_jsons.txt
+
+done < path/to/storm_jsons.txt
 
 popd
 
+
 ```
+or download this CUWALID [SLURM-type](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_cuwalid_jobs_qsub.bash) file from the following link or a CUWALID [QSUB-type](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_cuwalid_jobs_slurm.bash)
+
+DRYP model examples can be downloaded from:
+<a href="https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/input_template/HPC" target="_blank" class="btn btn--primary">
+    <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> CUWALID HPC Templates
+</a>
+
 
 This script will:
 - Loop through each Storm JSON and submit `cuwalid_run_storm.bash`
