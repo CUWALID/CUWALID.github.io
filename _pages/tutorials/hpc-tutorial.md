@@ -151,7 +151,7 @@ popd
 ```
 or download this CUWALID [SLURM-type](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_cuwalid_jobs_qsub.bash) file from the following link or a CUWALID [QSUB-type](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_cuwalid_jobs_slurm.bash)
 
-DRYP model examples can be downloaded from:
+You can find some examples script to generate .bash files and submitting jobs in the the following repo:
 <a href="https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/input_template/HPC" target="_blank" class="btn btn--primary">
     <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> CUWALID HPC Templates
 </a>
