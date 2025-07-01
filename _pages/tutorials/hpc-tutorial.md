@@ -11,6 +11,11 @@ sidebar:
 
 This guide describes how to run the full CUWALID forecasting workflow, including generating JSON input files and submitting jobs to a compute cluster. This example uses `SLURM` but it can adjusted to whichever software your hpc uses.
 
+You can find some examples script to generate .bash files and submitting jobs in the the following repo:
+<a href="https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/input_template/HPC" target="_blank" class="btn btn--primary">
+    <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> CUWALID HPC Templates
+</a>
+
 ---
 
 ##  1. Generate JSON Files and Bash Scripts
@@ -151,18 +156,26 @@ popd
 ```
 or download this CUWALID [SLURM-type](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_cuwalid_jobs_qsub.bash) file from the following link or a CUWALID [QSUB-type](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_cuwalid_jobs_slurm.bash)
 
-You can find some examples script to generate .bash files and submitting jobs in the the following repo:
-<a href="https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/input_template/HPC" target="_blank" class="btn btn--primary">
-    <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> CUWALID HPC Templates
-</a>
-
-
 This script will:
 - Loop through each Storm JSON and submit `cuwalid_run_storm.bash`
 - Submit corresponding `cuwalid_run_stopet.bash` job **in parallel**
 - Generate and submit DRYP jobs that depend on both Storm and StoPET jobs completing
 
 Each DRYP JSON file will get its own dynamically generated bash script in `bSub_runMe/`.
+
+
+You may find convinient to submit cuwalid jobs separately for each componet. This may help you to keep control of each component of the forecasting system.
+
+You can find in the following link a set of scripts to submit jobs separately:
+<a href="https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/input_template/HPC" target="_blank" class="btn btn--primary">
+    <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> CUWALID HPC Templates
+</a>
+
+The following file allows you to submit the climatological componets: [STORM and stoPET](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_meteo_jobs_slurm.bash):
+- `submit_meteo_jobs_slurm.bash`
+
+whereas that the hydrological components can be submited using the following link: [DRYP](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_dryp_jobs_slurm.bash).
+- `submit_dryp_jobs_slurm.bash`
 
 ---
 
@@ -189,7 +202,7 @@ All logs will be saved in `bSub_logMe/`, including:
 
 ## Final Notes
 
-- Make sure you have `qsub` and `conda` properly configured on your HPC environment.
+- Make sure you have `SLURM` or `qsub` and `conda` properly configured on your HPC environment.
 - Activate the `cwld` environment in your scripts.
 - Double-check file paths in your `config.json` and script logic.
 - If needed, modify memory/time parameters in `.bash` headers.
