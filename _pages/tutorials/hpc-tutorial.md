@@ -165,7 +165,7 @@ Each DRYP JSON file will get its own dynamically generated bash script in `bSub_
 
 ### Submit independent jobs (option 2)
 
-Alternatively, after the JSON files has been generated, you may find convinient to submit cuwalid jobs separately for each componet instead of running all component at the same time. This may help you to keep control of each component of the forecasting system.
+Alternatively, after the JSON files have been generated, you may find convinient to submit cuwalid jobs separately for each componet instead of running all component at the same time. This may help you to keep control of each component of the forecasting system.
 
 You can find in the following link a set of scripts to submit jobs separately:
 
