@@ -163,18 +163,20 @@ This script will:
 
 Each DRYP JSON file will get its own dynamically generated bash script in `bSub_runMe/`.
 
+### Submit independent jobs (option 2)
 
-You may find convinient to submit cuwalid jobs separately for each componet. This may help you to keep control of each component of the forecasting system.
+Alternatively, after the JSON files has been generated, you may find convinient to submit cuwalid jobs separately for each componet instead of running all component at the same time. This may help you to keep control of each component of the forecasting system.
 
 You can find in the following link a set of scripts to submit jobs separately:
+
 <a href="https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/input_template/HPC" target="_blank" class="btn btn--primary">
     <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> CUWALID HPC Templates
 </a>
 
-The following file allows you to submit the climatological componets: [STORM and stoPET](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_meteo_jobs_slurm.bash):
+The following file can be used as templates to submit the climatological componets: [STORM and stoPET](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_meteo_jobs_slurm.bash):
 - `submit_meteo_jobs_slurm.bash`
 
-whereas that the hydrological components can be submited using the following link: [DRYP](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_dryp_jobs_slurm.bash).
+whereas for the hydrological components the following file can be used to to submit jobs: [DRYP](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_dryp_jobs_slurm.bash).
 - `submit_dryp_jobs_slurm.bash`
 
 ---
