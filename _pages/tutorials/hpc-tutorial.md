@@ -35,10 +35,29 @@ This will:
   - `dryp_jsons.txt`
 - complete some necessary pre-processing needed for storm and stopet
 
+---
+## 2. Create the Bash Job Templates
+
+### Submit independent jobs (option 1)
+
+Alternatively, after the JSON files have been generated, you may find convinient to submit cuwalid jobs separately for each componet instead of running all component at the same time. This may help you to keep control of each component of the forecasting system.
+
+You can find in the following link a set of scripts to submit jobs separately:
+
+<a href="https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/input_template/HPC" target="_blank" class="btn btn--primary">
+    <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> CUWALID HPC Templates
+</a>
+
+The following file can be used as templates to submit the climatological componets: [STORM and stoPET](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_meteo_jobs_slurm.bash):
+- `submit_meteo_jobs_slurm.bash`
+
+whereas for the hydrological components the following file can be used to to submit jobs: [DRYP](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_dryp_jobs_slurm.bash).
+- `submit_dryp_jobs_slurm.bash`
+
 
 ---
 
-## 2. Create the Bash Job Templates
+### Create the Bash Job Templates (option 2)
 
 Run the bash generator script:
 
@@ -99,7 +118,7 @@ if __name__ == "__main__":
 
 ---
 
-## 3. Submit the Workflow
+#### Submit the Workflow
 
 Make sure your JSON lists (`storm_jsons.txt`, `stopet_jsons.txt`, and `dryp_jsons.txt`) are in the root or properly pathed in the script.
 
@@ -163,25 +182,10 @@ This script will:
 
 Each DRYP JSON file will get its own dynamically generated bash script in `bSub_runMe/`.
 
-### Submit independent jobs (option 2)
-
-Alternatively, after the JSON files have been generated, you may find convinient to submit cuwalid jobs separately for each componet instead of running all component at the same time. This may help you to keep control of each component of the forecasting system.
-
-You can find in the following link a set of scripts to submit jobs separately:
-
-<a href="https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/input_template/HPC" target="_blank" class="btn btn--primary">
-    <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> CUWALID HPC Templates
-</a>
-
-The following file can be used as templates to submit the climatological componets: [STORM and stoPET](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_meteo_jobs_slurm.bash):
-- `submit_meteo_jobs_slurm.bash`
-
-whereas for the hydrological components the following file can be used to to submit jobs: [DRYP](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_dryp_jobs_slurm.bash).
-- `submit_dryp_jobs_slurm.bash`
 
 ---
 
-## Complete forecasting
+## 3. Complete forecasting
 
 Because this system using the same file structure as the main cuwalid system, to complete the final forecasting steps after dryp you can simply run the normal cuwalid.main_cuwalid script with a cuwalid_input.json. But please insure you have disabled the running of storm, stopet and dryp in the configurations settings. 
 
