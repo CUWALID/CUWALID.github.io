@@ -11,13 +11,6 @@ sidebar:
 
 This guide describes how to run the full CUWALID forecasting workflow, including generating JSON input files and submitting jobs to a compute cluster. This example uses `SLURM` but it can adjusted to whichever software your hpc uses.
 
-You can find some examples script to generate .bash files and submitting jobs in the the following repo:
-<a href="https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/input_template/HPC" target="_blank" class="btn btn--primary">
-    <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> CUWALID HPC Templates
-</a>
-
-
-
 ---
 
 ##  1. Generate JSON Files and Bash Scripts
@@ -51,13 +44,14 @@ This will:
 
 ### Submit independent jobs (option 1)
 
-After the JSON files have been generated, you may find it convenient to submit Cuwalid jobs separately for each component, rather than running all components at the same time. This can help you maintain better control over each part of the forecasting system
+After the JSON files have been generated, you may find it convenient to submit Cuwalid jobs separately for each component, rather than running all components at the same time. This can help you maintain better control over each part of the forecasting system.
 
 The following file can be used as templates to submit the climatological componets: [STORM and stoPET](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_meteo_jobs_slurm.bash):
 - `submit_meteo_jobs_slurm.bash`
 
 whereas for the hydrological components the following file can be used to to submit jobs: [DRYP](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_dryp_jobs_slurm.bash).
 - `submit_dryp_jobs_slurm.bash`
+
 
 At the following link, you can find additional scripts to help you set up and submit jobs to the server:
 
