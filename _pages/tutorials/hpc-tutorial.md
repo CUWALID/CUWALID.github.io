@@ -16,9 +16,19 @@ You can find some examples script to generate .bash files and submitting jobs in
     <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> CUWALID HPC Templates
 </a>
 
+
+
 ---
 
 ##  1. Generate JSON Files and Bash Scripts
+
+Before you start running cuwalid, make sure you have created and have access to all parameter datasets as well as model parameter and setting files for each of the components that you are planning to run.
+
+You can either use the **[Input Helper](/tutorial/input-helper-tutorial) tool** to create all files required to for all components or you can find some templates in the following repo:
+<a href="https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/input_template" target="_blank" class="btn btn--primary">
+    <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> CUWALID Templates
+</a>
+
 
 Run the JSON generator script which also creates `.bash` job scripts:
 
@@ -187,7 +197,7 @@ Each DRYP JSON file will get its own dynamically generated bash script in `bSub_
 
 ## 3. Complete forecasting
 
-Because this system use the same file structure as the main cuwalid system, to complete the final forecasting steps after dryp you can simply run the normal cuwalid.This can be done be running main_cuwalid script with a cuwalid_input.json. In the configuration file, you need enable the WaterCast conmponens by activating the `HydroCast` and `IMCast` components. But please insure you have disabled the **running of storm, stopet and dryp** in the configurations settings. 
+Because this system use the same file structure as the main cuwalid system, to complete the final forecasting steps after dryp you can simply run the normal cuwalid.This can be done be running main_cuwalid script with a cuwalid_input.json. **[Here](/tutorials/cuwalid_tutorial)** you can find all information required to run CUWALID. In the configuration file, you need enable the WaterCast conmponens by activating the `HydroCast` and `IMCast` components. But please insure you have disabled the **running of storm, stopet and dryp** in the configurations settings. 
 
 ## Job Dependencies
 
