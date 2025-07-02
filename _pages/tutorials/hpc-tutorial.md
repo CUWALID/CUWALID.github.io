@@ -187,7 +187,7 @@ Each DRYP JSON file will get its own dynamically generated bash script in `bSub_
 
 ## 3. Complete forecasting
 
-Because this system using the same file structure as the main cuwalid system, to complete the final forecasting steps after dryp you can simply run the normal cuwalid.main_cuwalid script with a cuwalid_input.json. But please insure you have disabled the running of storm, stopet and dryp in the configurations settings. 
+Because this system use the same file structure as the main cuwalid system, to complete the final forecasting steps after dryp you can simply run the normal cuwalid.This can be done be running main_cuwalid script with a cuwalid_input.json. In the configuration file, you need enable the WaterCast conmponens by activating the `HydroCast` and `IMCast` components. But please insure you have disabled the **running of storm, stopet and dryp** in the configurations settings. 
 
 ## Job Dependencies
 
