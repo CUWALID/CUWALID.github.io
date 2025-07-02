@@ -24,7 +24,7 @@ You can find some examples script to generate .bash files and submitting jobs in
 
 Before you start running CUWALID, make sure you have created and have access to all parameter datasets, as well as the model parameter and setting files for each of the components that you plan to run.
 
-You can either use the **Input Helper tool, [here](/tutorial/input-helper-tutorial)**, to create all the required files each components, or you can find some templates in the following repository:
+You can either use the **Input Helper tool, [here](/tutorials/input-helper)**, to create all the required files each components, or you can find some templates in the following repository:
 
 <a href="https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/input_template" target="_blank" class="btn btn--primary">
     <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> CUWALID Templates
