@@ -51,19 +51,19 @@ This will:
 
 ### Submit independent jobs (option 1)
 
-Alternatively, after the JSON files have been generated, you may find convinient to submit cuwalid jobs separately for each componet instead of running all component at the same time. This may help you to keep control of each component of the forecasting system.
-
-You can find in the following link a set of scripts to submit jobs separately:
-
-<a href="https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/input_template/HPC" target="_blank" class="btn btn--primary">
-    <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> CUWALID HPC Templates
-</a>
+After the JSON files have been generated, you may find it convenient to submit Cuwalid jobs separately for each component, rather than running all components at the same time. This can help you maintain better control over each part of the forecasting system
 
 The following file can be used as templates to submit the climatological componets: [STORM and stoPET](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_meteo_jobs_slurm.bash):
 - `submit_meteo_jobs_slurm.bash`
 
 whereas for the hydrological components the following file can be used to to submit jobs: [DRYP](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/input_template/HPC/submit_dryp_jobs_slurm.bash).
 - `submit_dryp_jobs_slurm.bash`
+
+At the following link, you can find additional scripts to help you set up and submit jobs to the server:
+
+<a href="https://github.com/AndresQuichimbo/CUWALID-tutorials/tree/main/input_template/HPC" target="_blank" class="btn btn--primary">
+    <img src="/assets/images/icons/github-mark.svg" alt="GitHub" class="icon"> CUWALID HPC Templates
+</a>
 
 
 ---
