@@ -23,7 +23,7 @@ You can find some examples script to generate .bash files and submitting jobs in
 Run the JSON generator script which also creates `.bash` job scripts:
 
 ```bash
-python -m cuwalid.tools.generate_json.py cuwalid_config.json
+python -m cuwalid.tools.generate_json your_cuwalid_config.json
 ```
 
 This will:
