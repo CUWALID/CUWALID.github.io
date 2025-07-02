@@ -27,7 +27,7 @@ gallery:
 
 <link rel="stylesheet" href="{{ '/assets/css/wujihacast.css' | relative_url }}">
 
-{% include figure popup=true image_path="/assets/images/wujihacast_gallery/WUJIHA_Logo.png" alt="Wujihacast Logo" %}
+{% include figure popup=true image_path="/assets/images/qr_telegram.JPG" alt="Wujihacast Logo" %}
 
 # Wujihacast Chatbot
 
@@ -41,6 +41,9 @@ An interactive chatbot that provides impact-based seasonal forecasts to help ind
     </a>
 </div>
 
+or you can scan this QR are code to access the WujihaCast:
+
+{% include figure popup=true image_path="/assets/images/cuwalid_app/raster_map_example.png" alt="Raster plot example" %}
 
 ---
 
