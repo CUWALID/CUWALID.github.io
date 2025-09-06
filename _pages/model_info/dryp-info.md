@@ -86,15 +86,22 @@ Output variables for each model component are summarized below. The units of tim
 - Surface water storage, including rivers (`ssz`), m³/month
 
 #### **Subsurface and riparian component**:
-- Soil and riparian water content (`tht`), m³/m³
-- Actual evapotranspiration from hillslope and riparian area (`aet`), mm/month
-- Groundwater diffuse (`drh`) and focused (`fch`) recharge, mm/month
+- Soil (`tht`) and riparian water content (`thtrp`), m³/m³
+- Actual evapotranspiration from hillslope (`aet`) and riparian area (`etrp`), mm/month
+- Groundwater diffuse (`dch`) and focused (`fch`) recharge, mm/month
+- Groundwater recharge (`rch`), mm/month
 
 #### **Groundwater component**:
 - Water table elevation (`wte`), m
 - Groundwater discharge (`gdh`), m³/month
-- Capillary evapotranspiration (`egw`), mm/month
+- Groundwater/Capillary evapotranspiration (`egw`), mm/month
 - Total water storage deviation (`twsc`), m/month
+
+#### **Water bodies**:
+- Total volume of water available - ponds (`vpd`), m³
+- evaporation - ponds (`epd`), mm/month
+- Total abstractions - ponds (`apd`), m³/month
+
 
 ## Model parameters and setting files
 

@@ -63,15 +63,16 @@ Here are the parameters used for the Forecast Hydrological model:
   - **pre**: Precipitation  
   - **pet**: Potential Evapotranspiration  
   - **aet**: Actual Evapotranspiration  
-  - **tht**: Total Heat  
+  - **tht**: Soil moisture
   - **egw**: Groundwater Evaporation  
   - **inf**: Infiltration  
   - **run**: Surface Runoff  
-  - **rch**: Recharge  
-  - **fch**: Flow from Catchment  
-  - **gdh**: Groundwater Depth  
+  - **rch**: Recharge 
+  - **fch**: Focused groundwater recharge
+  - **gdh**: Groundwater discharge  
   - **dis**: Discharge  
-  - **tls**: Total Land Surface Temperature  
+  - **tls**: Transmission losses  
   - **wte**: Water Table Elevation  
   - **twsc**: Terrestrial Water Storage Change  
   - **wrsi**: Water Requirement Satisfaction Index
+  - **flood**: Maximum discharge per month
