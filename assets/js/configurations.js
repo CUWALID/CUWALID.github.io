@@ -58,7 +58,7 @@ const jsonConfigurations = {
             "path_Qo": { "default": null, "required": false, "description": "Path to the initial discharge map" },
             "path_fdl": { "default": null, "required": false, "description": "Path to the flow direction file" },
             "path_riv_decay": { "default": null, "required": false, "description": "Path to river decay factor file" },
-            "path_mask": { "default": null, "required": false, "description": "Path to basin mask file" },
+            "path_mask": { "default": null, "required": false, "description": "Path to basin/domain mask file" },
             "path_riv_len": { "default": null, "required": false, "description": "Path to river length file" },
             "path_riv_width": { "default": null, "required": false, "description": "Path to river width file" },
             "path_riv_elev": { "default": null, "required": false, "description": "Path to river elevation file" }
@@ -110,12 +110,12 @@ const jsonConfigurations = {
         },
 
         "WATER_BODIES": {
-            "path_lake_depth": { "default": null, "required": false, "description": "Path to deep lake depth file" },
-            "path_pnd_hmax": { "default": null, "required": false, "description": "Path to maximum pond depth file" },
-            "path_pnd_Amax": { "default": null, "required": false, "description": "Path to maximum pond area file" },
-            "path_pnd_Vo": { "default": null, "required": false, "description": "Path to pond initial conditions" },
-            "path_slks_depth": { "default": null, "required": false, "description": "Path to shallow lake depth" },
-            "path_slks_area": { "default": null, "required": false, "description": "Path to shallow lake area" }
+            "path_lake_depth": { "default": null, "required": false, "description": "Path to deep lake depth file. Raster (e.g. ASC) file." },
+            "path_pnd_hmax": { "default": null, "required": false, "description": "Path to maximum pond depth file. Raster (e.g. ASC) file." },
+            "path_pnd_Amax": { "default": null, "required": false, "description": "Path to maximum pond area file. Raster (e.g. ASC) file." },
+            "path_pnd_Vo": { "default": null, "required": false, "description": "Path to pond initial conditions. Raster (e.g. ASC) file." },
+            "path_slks_depth": { "default": null, "required": false, "description": "Path to shallow lake depth. Raster (e.g. ASC) file." },
+            "path_slks_area": { "default": null, "required": false, "description": "Path to shallow lake area. Raster (e.g. ASC) file." }
         },
 
         "INTERCEPTION": {
@@ -126,14 +126,23 @@ const jsonConfigurations = {
             "path_out_sz": { "default": null, "required": false, "description": "Path for list of saturated zone location output/monitoring points. CSV file." },
             "path_out_uz": { "default": null, "required": false, "description": "Path for list of unsaturated zone location output/monitoring points. CSV file." },
             "path_out_oz": { "default": null, "required": false, "description": "Path for list of surface zone location output/monitoring points CSV file." },
-            "path_out_zones": { "default": null, "required": false, "description": "Path for list of output zones aggregated values. Raster (ASC) file." },
-            "path_output": { "default": null, "required": false, "description": "Directory to place ouput" },
+            "path_out_zones": { "default": null, "required": false, "description": "Path for aggregated output zone values. Raster (e.g. ASC) file." },
+            "path_output": { "default": null, "required": false, "description": "Directory to place ouputs" },
             "path_setting": { "default": null, "required": false, "description": "Path to settings file" },
-            "path_store_option": { "default": null, "required": false, "description": "Path to store option file" }
+            "path_store_settings": { "default": null, "required": false, "description": "Path to store settings option file" }
         },
         
         "CALIBRATION": {
-            "path_cal_mask": { "default": null, "required": false, "description": "Output path for zone data. Raster (ASC) file." }
+            "path_cal_of_zone": { "default": null, "required": false, "description": "path for surface zone mask. Raster (e.g. ASC) file." },
+            "path_cal_uz_zone": { "default": null, "required": false, "description": "path for unsaturated zone mask. Raster (e.g. ASC) file." },
+            "path_cal_sz_zone": { "default": null, "required": false, "description": "path for saturated zone mask. Raster (e.g. ASC) file." },
+            "path_cal_rp_zone": { "default": null, "required": false, "description": "path for riparian zone mask. Raster (e.g. ASC) file." },
+            "path_cal_st_zone": { "default": null, "required": false, "description": "path for river network zone mask. Raster (e.g. ASC) file." },
+            "path_cal_of_set": { "default": null, "required": false, "description": "path for surface zone factors. CSV/TXT file." },
+            "path_cal_uz_set": { "default": null, "required": false, "description": "path for unsaturated zone factors. CSV/TXT file." },
+            "path_cal_sz_set": { "default": null, "required": false, "description": "path for saturated zone factors. CSV/TXT file." },
+            "path_cal_rp_set": { "default": null, "required": false, "description": "path for riparian zone factors. CSV/TXT file." },
+            "path_cal_st_set": { "default": null, "required": false, "description": "path for river network factors. CSV/TXT file." }
         }
 
     },
