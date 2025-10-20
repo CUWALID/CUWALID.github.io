@@ -98,21 +98,24 @@ const jsonConfigurations = {
             "path_sz_bc_head": { "default": null, "required": false, "description": "Path to boundary condition head" },
             "path_sz_bottom": { "default": null, "required": false, "description": "Path to saturated zone bottom boundary" },
             "path_sz_depth": { "default": null, "required": false, "description": "Path to saturated zone depth" },
-            "path_sz_type": { "default": null, "required": false, "description": "Path to saturated zone type classification" }
+            "path_sz_type": { "default": null, "required": false, "description": "Path to aquifer type classification" }
         },
 
         "METEO": {
             "path_pre": { "default": null, "required": false, "description": "Path to precipitation input file" },
-            "path_pet": { "default": null, "required": false, "description": "Path to potential evapotranspiration input file" },
-            "path_lai": { "default": null, "required": false, "description": "Path to leaf area index file" },
-            "path_savi": { "default": null, "required": false, "description": "Path to soil-adjusted vegetation index file" },
+            "path_pet": { "default": null, "required": false, "description": "Path to potential evapotranspiration input (PET)" },
+            "path_lai": { "default": null, "required": false, "description": "Path to leaf area index (LAI) file" },
+            "path_savi": { "default": null, "required": false, "description": "Path to soil-adjusted vegetation index (SAVI) file" },
             "path_kc": { "default": null, "required": false, "description": "Path to crop coefficient file" }
         },
 
         "WATER_BODIES": {
-            "path_lake_depth": { "default": null, "required": false, "description": "Path to lake depth file" },
+            "path_lake_depth": { "default": null, "required": false, "description": "Path to deep lake depth file" },
             "path_pnd_hmax": { "default": null, "required": false, "description": "Path to maximum pond depth file" },
-            "path_pnd_Amax": { "default": null, "required": false, "description": "Path to maximum pond area file" }
+            "path_pnd_Amax": { "default": null, "required": false, "description": "Path to maximum pond area file" },
+            "path_pnd_Vo": { "default": null, "required": false, "description": "Path to pond initial conditions" },
+            "path_slks_depth": { "default": null, "required": false, "description": "Path to shallow lake depth" },
+            "path_slks_area": { "default": null, "required": false, "description": "Path to shallow lake area" }
         },
 
         "INTERCEPTION": {
@@ -120,13 +123,19 @@ const jsonConfigurations = {
         },
 
         "OUTPUT": {
-            "path_out_sz": { "default": null, "required": false, "description": "Output path for saturated zone data" },
-            "path_out_uz": { "default": null, "required": false, "description": "Output path for unsaturated zone data" },
-            "path_out_oz": { "default": null, "required": false, "description": "Output path for other zone data" },
+            "path_out_sz": { "default": null, "required": false, "description": "Path for list of saturated zone location output/monitoring points. CSV file." },
+            "path_out_uz": { "default": null, "required": false, "description": "Path for list of unsaturated zone location output/monitoring points. CSV file." },
+            "path_out_oz": { "default": null, "required": false, "description": "Path for list of surface zone location output/monitoring points CSV file." },
+            "path_out_zones": { "default": null, "required": false, "description": "Path for list of output zones aggregated values. Raster (ASC) file." },
             "path_output": { "default": null, "required": false, "description": "Directory to place ouput" },
             "path_setting": { "default": null, "required": false, "description": "Path to settings file" },
-            "path_projection": { "default": null, "required": false, "description": "Path to projection file" }
+            "path_store_option": { "default": null, "required": false, "description": "Path to store option file" }
+        },
+        
+        "CALIBRATION": {
+            "path_cal_mask": { "default": null, "required": false, "description": "Output path for zone data. Raster (ASC) file." }
         }
+
     },
     "dryp_settings": {
         "SIMULATION_PERIOD": {
