@@ -164,6 +164,17 @@ const jsonConfigurations = {
             "required": false,
             "description": "Projection system used for spatial calculations"
         },
+        "GEOGRAPHIC_SYSTEM": {
+            "default": false,
+            "required": false,
+            "description": "Geographic reference system used for the simulation"
+        },
+        "FLOWDIR_FORMAT": {
+            "default": "DRYP",
+            "required": false,
+            "description": "Format of the flow direction file (e.g., D8, LDD-Lower Drainage Direction, GRASS, AGNPS, 1-9)"
+        },
+
         "TIMESTEP_SETTINGS": {
             "dt_of": {
                 "default": 60,
