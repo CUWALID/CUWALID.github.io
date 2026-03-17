@@ -172,7 +172,7 @@ const jsonConfigurations = {
         "FLOWDIR_FORMAT": {
             "default": "DRYP",
             "required": false,
-            "description": "Format of the flow direction file (e.g., D8, LDD-Lower Drainage Direction, GRASS, AGNPS, 1-9)"
+            "description": "Format of the flow direction file (e.g., DRYP, D8, LDD-Lower Drainage Direction, GRASS, AGNPS, 1-9)"
         },
 
         "TIMESTEP_SETTINGS": {
