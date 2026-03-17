@@ -159,15 +159,15 @@ const jsonConfigurations = {
                 "description": "Day of the year that the model should end at using format YYYY MM DD"
             }
         },
-        "PROJECTION": {
-            "default": "+proj=laea +lat_0=5 +lon_0=20 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-            "required": false,
-            "description": "Projection system used for spatial calculations"
-        },
         "GEOGRAPHIC_SYSTEM": {
             "default": false,
             "required": false,
             "description": "Geographic reference system used for the simulation"
+        },
+        "PROJECTION": {
+            "default": "+proj=laea +lat_0=5 +lon_0=20 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+            "required": false,
+            "description": "Projection system used for spatial calculations"
         },
         "FLOWDIR_FORMAT": {
             "default": "DRYP",
