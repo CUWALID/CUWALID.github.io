@@ -1,7 +1,7 @@
 ---
 title: "CUWALID AI-Assistant"
 layout: single
-permalink: /ai-Assistant/
+permalink: /ai-assistant/
 
 sidebar:
   nav: "ai-assistant"
