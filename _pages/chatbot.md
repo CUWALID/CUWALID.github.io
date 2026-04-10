@@ -109,5 +109,23 @@ The chatbot ensures that climate data is accessible and actionable.
 
 
 
+# CUWALID AI-Assistant
+
+## Introduction
+The CUWALID AI-Assistant is a Large Language Model tool to assist the CUWALID user in two main task:
+
+1. To help public and expert user interpreting the seasonal water forecast,
+2. To assist potential user in the implementation and leverage of the CUWALID modelling system in their workflows.
+
+## How it works
+CUWALID AI Assistant can be accessed here
+
+<a href="https://cuwalid-llm-web.vercel.app/" class="btn btn--primary">CUWALID AI Assistant</a>  
 
 
+## Key Capabilities
+- provides a personalised interpretation of the seasonal forecast (under develpment)
+- help installing CUWALID
+- help understanding CUWALID components
+- help setting up CUWALID models
+- guidance for processing model inputs and ouputs
