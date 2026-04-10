@@ -125,10 +125,9 @@ chatbot:
 
 aiassistant:
   - title: Overview
-    url: /aiassistant/
+    url: /ai-assistant/
     children:
     - title: Introduction
-      url: /aiassistant/#introduction
+      url: /ai-assistant/#introduction
     - title: Capabilities
-      url: /aiassistant/#capabilities
-      
+      url: /ai-assistant/#capabilities
