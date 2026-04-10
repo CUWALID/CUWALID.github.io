@@ -108,24 +108,69 @@ The chatbot ensures that climate data is accessible and actionable.
 *"This season is expected to be drier than normal. Some shallow wells may go dry, requiring deeper wells for drinking water. Consider planning ahead for water availability."*
 
 
-
-# CUWALID AI-Assistant
+# CUWALID AI-Assistant 
 
 ## Introduction
-The CUWALID AI-Assistant is a Large Language Model tool to assist the CUWALID user in two main task:
+The CUWALID AI-Assistant is an AI-powered support tool designed to help users interact with the CUWALID modelling system and better understand seasonal water forecasts.
 
-1. To help public and expert user interpreting the seasonal water forecast,
-2. To assist potential user in the implementation and leverage of the CUWALID modelling system in their workflows.
+It supports a wide range of users, including:
+- Water resource managers
+- Researchers and modellers
+- Policy makers and planners
+- Technical practitioners implementing CUWALID
+
+The assistant helps bridge the gap between complex model outputs and actionable insights.
+
+---
+
+## What can you ask?
+You can interact with the assistant using natural language. For example:
+- “What does this season’s forecast imply for water availability?”
+- “How do I set up CUWALID for a new catchment?”
+- “What inputs are required for the hydrological model?”
+- “How should I interpret these model outputs?”
+
+---
 
 ## How it works
-CUWALID AI Assistant can be accessed here
+1. Open the AI Assistant using the link below  
+2. Ask your question in plain language  
+3. Receive tailored guidance based on CUWALID knowledge and workflows  
 
 <a href="https://cuwalid-llm-web.vercel.app/" class="btn btn--primary">CUWALID AI Assistant</a>  
 
+No advanced technical expertise is required to get started.
+
+---
 
 ## Key Capabilities
-- provides a personalised interpretation of the seasonal forecast (under develpment)
-- help installing CUWALID
-- help understanding CUWALID components
-- help setting up CUWALID models
-- guidance for processing model inputs and ouputs
+
+### Forecast Interpretation *(under development)*
+- Personalised explanations of seasonal forecasts  
+- Translation of technical outputs into actionable insights  
+- Support for decision-making in water management  
+
+### Technical Support
+- Step-by-step guidance for installing CUWALID  
+- Troubleshooting common issues  
+- Recommendations for best practices  
+
+### Modelling Guidance
+- Explanation of CUWALID components and workflows  
+- Support for model configuration and calibration  
+- Assistance with scenario setup and analysis  
+
+### Data Processing
+- Guidance on preparing model inputs  
+- Help interpreting outputs and indicators  
+- Advice on data formats and preprocessing steps  
+
+---
+
+## Limitations
+The AI-Assistant is designed to support users, but it does not replace expert judgement.  
+Responses are based on available documentation and may not cover all specific use cases.
+
+Users are encouraged to validate critical decisions with domain experts.
+
+---
