@@ -7,6 +7,8 @@ main:
     url: /tools/
   - title: "Chatbot"
     url: /chatbot/
+  - title: "AI-Assistant"
+    url: /ai-assistant/
   - title: "Team"
     url: /team/
   - title: "Publications"
@@ -120,3 +122,13 @@ chatbot:
       url: /chatbot/#key-capabilities
     - title: Democratizing Climate Information
       url: /chatbot/#democratizing-climate-information
+
+aiassistant:
+  - title: Overview
+    url: /aiassistant/
+    children:
+    - title: Introduction
+      url: /aiassistant/#introduction
+    - title: Capabilities
+      url: /aiassistant/#capabilities
+      
