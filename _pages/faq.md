@@ -1,4 +1,4 @@
-If there is an error when running stoped test, it may be due to unsuccesful download of parameter files. You may have to download it manually from the permanent store repository. The following files need to be downloaded:
+If there is an error when running the stoPET test, it may be due to the unsuccesful download of parameter files. You may have to download it manually from the permanent store repository. The following files need to be downloaded:
 # URLs for StopET data
 stopet_download_urls = {
     "stopet_parameters.nc": "https://figshare.com/ndownloader/files/34923690",
@@ -9,10 +9,10 @@ stopet_download_urls = {
     "stdshift_had.nc": "https://figshare.com/ndownloader/files/49400425"
 }
 
-and copy and paste in the corresponing directory.
+Download the above fiels and copy and paste in your corresponing local directory.
 
 By default it should be stored in:
-'/home/username/anaconda3/envs/cwld/lib/python3.11/site-packages/cuwalid/stopet/stopet_parameters/meanshift_had.nc'
+'/home/username/anaconda3/envs/cwld/lib/python3.11/site-packages/cuwalid/stopet/stopet_parameters/'
 
 
 
