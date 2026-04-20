@@ -19,4 +19,4 @@ STORM provides stochastic realization of precipitation fields at high spatial (0
 {% include figure popup=true image_path="/assets/images/model_info/STORM_parameters.jpg" alt="DStorm Parameters" %}
 
 
-A detail description of the component as well as documentation can be found in: [STORM]()
+A detailed description of the component as well as documentation can be found in: [STORM]()
