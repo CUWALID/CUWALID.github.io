@@ -15,4 +15,4 @@ The CUWALID climate and hydrological forecasting system is a modelling system th
 
 CUWALID components include stoPET, STORM, DRYP, and the WaterCast component, which includes HydroCast and ImCast. CUWALID first creates an ensemble of hydrological simulations which is the postproccessed within the WaterCast component.
 
-A detail description of the component as well as documentation can be found in: [CUWALID](https://cuwalid.readthedocs.io/en/latest/forecast_model.html)
+A detailed description of the component as well as documentation can be found in: [CUWALID](https://cuwalid.readthedocs.io/en/latest/forecast_model.html)
