@@ -169,4 +169,4 @@ Average results are saved in a comma-separated file that can be opened in Micros
 - `tls`: Transmission losses
 
 
-A detail description of the component as well as documentation can be found in: [DRYP](https://cuwalid.readthedocs.io/en/latest/dryp_model.html)
+A detailed description of the component as well as documentation can be found in: [DRYP](https://cuwalid.readthedocs.io/en/latest/dryp_model.html)
