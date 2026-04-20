@@ -17,3 +17,6 @@ STORM is part of the climatological component of the CUWALID system. STORM fills
 STORM provides stochastic realization of precipitation fields at high spatial (0.1 degree) and temporal resolution (30 min). STORM generates realistic precipitation events across entire regions specified by user. STORM was developed by characterizing key properties of precipitation events (e.g. intensity, duration, extend, direction) observed in global datasets of precipitation and remote sensing data at high spatial and temporal resolutions.
 
 {% include figure popup=true image_path="/assets/images/model_info/STORM_parameters.jpg" alt="DStorm Parameters" %}
+
+
+A detail description of the component as well as documentation can be found in: [STORM]()

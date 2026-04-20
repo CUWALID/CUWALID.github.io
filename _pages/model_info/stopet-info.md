@@ -66,3 +66,4 @@ This animation shows stoPET generating hourly PET values across the **Horn of Af
 
 {% include figure popup=true image_path="/assets/images/model_info/Oct_1.gif" alt="PET Sine Fit" %}
 
+A detail description of the component as well as documentation can be found in: [stoPET](https://cuwalid.readthedocs.io/en/latest/stopet_model.html)

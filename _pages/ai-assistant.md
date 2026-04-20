@@ -7,7 +7,6 @@ sidebar:
   nav: "ai-assistant"
 
 ---
-# CUWALID AI-Assistant 
 
 ## Introduction
 The CUWALID AI-Assistant is an AI-powered support tool designed to help users interact with the CUWALID modelling system and better understand seasonal water forecasts.
