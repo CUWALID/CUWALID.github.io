@@ -17,4 +17,4 @@ HydroCast also postprocess the historical simulations to create all necesary par
 
 HydroCast uses a tercile approach for the probabilistic forecasting based on historical simulations.
 
-A detail description of the component as well as documentation can be found in: [HydroCast](https://cuwalid.readthedocs.io/en/latest/forecast_model.html)
+A detailed description of the component as well as documentation can be found in: [HydroCast](https://cuwalid.readthedocs.io/en/latest/forecast_model.html)
