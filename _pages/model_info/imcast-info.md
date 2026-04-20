@@ -13,4 +13,4 @@ sidebar:
 ## Overview
 ImCast is an impact-based water status forecasting model. It uses probabilistic forecasts from the hydrological forecast as input to produce impact-based water status outputs. These outputs are then translated into maps.
 
-A detail description of the component as well as documentation can be found in: [ImCast](https://cuwalid.readthedocs.io/en/latest/forecast_model.html)
+A detailed description of the component as well as documentation can be found in: [ImCast](https://cuwalid.readthedocs.io/en/latest/forecast_model.html)
