@@ -9,6 +9,10 @@ sidebar:
 
 <a href="/model-info/dryp-model" class="btn btn--primary">Model Information</a>
 
+<a href="https://cuwalid.readthedocs.io/en/latest/dryp_model.html" target="_blank" class="btn btn--primary">
+  <img src="/assets/images/icons/logo-opengraph.webp" alt="Read the Docs" class="icon"> DRYP Documentation
+</a>
+
 ### Overview
 
 We have prepared a series of tutorials to help users learn how to develop a hydrological model using DRYP. These tutorials include examples of models designed to enhance understanding of all model components and demonstrate the capabilities of DRYP. We use synthetic examples to introduce the model's features and guide users through its functionalities.
@@ -56,3 +60,15 @@ Sections in this module:
 2. Running a Catchment-Scale DRYP Model – [Running simulations](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/Training/DRYP/catchment/DRYP_model_running.ipynb)
 
 3. Post-processing DRYP Model Outputs – [DRYP post-processing](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/Training/DRYP/catchment/04_DRYP_post_processing.ipynb)
+
+
+#### Module 3: Developing a Regional-Scale Model Using Continental-Global Datasets
+This module guides users through the process of building a regional -scale hydrological model using real-world global datasets. Users will learn how to prepare model input parameters using the built-in CUWALID tools, which support the preprocessing and processing of gridded and raster data.
+
+Sections in this module:
+
+1. Preprocessing Global Datasets – [Pre-processing Global Data](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/Training/DRYP/regional/AF_datasets_preprocess.ipynb).
+
+2. Preparing Continental scale Datasets – [Continental Scale Datasets](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/Training/DRYP/regional/AF_global_parameters.ipynb)
+
+3. Preparing DRYP Model Input Parameters and Datasets – [DRYP model settings](https://github.com/AndresQuichimbo/CUWALID-tutorials/blob/main/Training/DRYP/regional/02_DRYP_pre_pocesing.ipynb)
