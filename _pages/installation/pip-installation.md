@@ -70,6 +70,18 @@ python -m cuwalid.tests.stopet.run_tests
 
 ---
 
+
+- **[CUWALID pip installation - Video Tutorial](https://www.loom.com/share/66915092168445b991e2c9a65600dadf)** – Here is a short video tutorial if you need more help to install CUWALID.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe src="https://www.loom.com/embed/66915092168445b991e2c9a65600dadf"
+    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
+
+---
+
 ### **4. Running CUWALID**
 To run the full CUWALID system, check out the tutorial [here](/tutorials/#cuwalid).  
 You can also use the [CUWALID Example GitHub Repository](https://github.com/AndresQuichimbo/CUWALID-Example) to access example input files.
