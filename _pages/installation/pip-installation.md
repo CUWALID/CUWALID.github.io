@@ -22,9 +22,9 @@ It is recommended to create a **virtual environment** before installation.
 If using Conda, run:
 
 ```bash
-# Create a Conda environment named "test_env" with Python 3.11
-conda create --name test_env python=3.11 -y
-conda activate test_env
+# Create a Conda environment named "cwld" with Python 3.11
+conda create --name cwld python=3.11 -y
+conda activate cwld
 ```
 
 Now your environment is created and activated.
@@ -32,6 +32,9 @@ Now your environment is created and activated.
 ---
 
 ### **2. Install CUWALID Package**
+
+Take a look at our video tutorial at the bottom of this page or follow the instructions below ([go to the tutorial](#cuwalid-pip-installation-video-tutorial)).
+
 Run the following command to install the latest version of CUWALID:  
 
 ```bash
@@ -71,6 +74,7 @@ python -m cuwalid.tests.stopet.run_tests
 ---
 
 
+<a id="cuwalid-pip-installation-video-tutorial"></a>
 - **[CUWALID pip installation - Video Tutorial](https://www.loom.com/share/66915092168445b991e2c9a65600dadf)** – Here is a short video tutorial if you need more help to install CUWALID.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;">
