@@ -16,6 +16,9 @@ Make sure to **tick the "Add to PATH" box** during installation to simplify the 
 ---
 
 ### **1. Create a Virtual Environment (Recommended)**
+
+Take a look at our video tutorial at the bottom of this page ([go to the tutorial](#cuwalid-pip-installation-video-tutorial)) or follow the instructions below.
+
 First, open the directory where you want to work and ensure Python or Anaconda is properly installed.  
 It is recommended to create a **virtual environment** before installation.  
 
@@ -32,8 +35,6 @@ Now your environment is created and activated.
 ---
 
 ### **2. Install CUWALID Package**
-
-Take a look at our video tutorial at the bottom of this page or follow the instructions below ([go to the tutorial](#cuwalid-pip-installation-video-tutorial)).
 
 Run the following command to install the latest version of CUWALID:  
 
