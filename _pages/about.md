@@ -42,7 +42,7 @@ The CUWALID system and its research have been **supported by multiple organizati
 </div>
 
 ### **Acknowledgments**  
-- **E. Andrés Quichimbo** received financial support from Cardiff University through a Vice Chancellor’s Scholarship, Cardiff-UKRI-EPSRC.  
+- **E. Andrés Quichimbo** receives financial support from the European Commission Horizon 2020 Postdoctoral Fellowships - Marie Skłodowska-Curie ("HYDROAWARE AFRICA", grant no 101209082) and UKRI-EPSRC-Strategic Impact Funding.  
 - **Mark O. Cuthbert** acknowledges funding for an Independent Research Fellowship from the UK Natural Environment Research Council (**NE/P017819/1**).  
 - **Michael Bliss Singer** has been supported by the U.S. National Science Foundation (**BCS-1660490 and EAR-1700517**) and the U.S. Department of Defense (**RC18-1006**).  
 - **The team** has been supported by the Global Challenges Research Fund (**GCRF**), The Royal Society (**DRIER, CHL\R1\180485**), and the European Union's Horizon 2020 programme (**DOWN2EARTH, grant no. 869550**).  
