@@ -96,6 +96,6 @@ sidebar:
   <div class="model-card">
     <h3>Processing Datasets</h3>
     <p>This page helps you preprocess forcing dataset for the CUWALID Models</p>
-    <a href="/tutorials/dryp-tutorial/" class="btn btn--primary">Tutorial</a>
+    <a href="/tutorials/forcing-dataset-tutorial/" class="btn btn--primary">Tutorial</a>
   </div>
 </div>
