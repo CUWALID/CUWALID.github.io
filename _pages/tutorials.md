@@ -9,7 +9,7 @@ sidebar:
 
 <link rel="stylesheet" href="{{ '/assets/css/model-card.css' | relative_url }}">
 
-## Installation
+## Intro Python
 
 <div class="model-container">
   <div class="model-card">
@@ -17,6 +17,13 @@ sidebar:
     <p>This page provides help with using Python for begginers</p>
     <a href="/tutorials/python-tutorial" class="btn btn--primary">Tutorial</a>
   </div>
+</div>
+
+---
+
+## Installation
+
+<div class="model-container">
   <div class="model-card">
     <h3>Pip Installation</h3>
     <p>This is the recommended and easiest way to start using the CUWALID System.</p>
@@ -80,5 +87,15 @@ sidebar:
     <h3>CUWALID App</h3>
     <p>Infomation to use the CUWALID App for visualisation and running DRYP.</p>
     <a href="/tutorials/cuwalid-app/" class="btn btn--primary">Tutorial</a>
+  </div>
+</div>
+
+## Dataset
+
+<div class="model-container">
+  <div class="model-card">
+    <h3>Processing Datasets</h3>
+    <p>This page helps you preprocess forcing dataset for the CUWALID Models</p>
+    <a href="/tutorials/dryp-tutorial/" class="btn btn--primary">Tutorial</a>
   </div>
 </div>
