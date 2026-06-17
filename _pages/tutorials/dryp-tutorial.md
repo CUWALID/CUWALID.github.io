@@ -39,6 +39,8 @@ The training materials are divided into two main modules:
 
 * Development of a Basin-Scale Model Using Regional Datasets
 
+* Development of a continental scale model
+
 ##### Module 1: Understanding the Hydrological Model DRYP
 This module is designed to help users understand the key features and components of the DRYP hydrological model. It includes theoretical explanations as well as hands-on examples using synthetic experiments to demonstrate model behavior.
 
