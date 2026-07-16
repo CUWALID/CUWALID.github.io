@@ -372,7 +372,7 @@ const jsonConfigurations = {
             },
             "solver_gw": {
                 "default": ["explicit", "implicit"],
-                "required": true,
+                "required": false,
                 "description": "Solver used for groundwater simulation"
             }
 
